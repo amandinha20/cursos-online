@@ -1,0 +1,8 @@
+.swiper-container {
+    --swiper-pagination-color: white !important;
+}
+
+.swiper-container > * {
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
