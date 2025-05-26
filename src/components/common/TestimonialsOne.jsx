@@ -23,7 +23,7 @@ export default function TestimonialsOne() {
               </h2>
 
               <p className="sectionTitle__text text-white">
-                Lorem ipsum dolor sit amet, consectetur.
+                Veja o que nossos alunos e parceiros têm a dizer sobre a experiência de aprendizado na nossa plataforma.
               </p>
             </div>
           </div>

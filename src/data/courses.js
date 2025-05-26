@@ -3,7 +3,7 @@ export const coursesData = [
     id: 1,
     imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    title: "MBA em inteligência Artificial para gestão e Negócios",
+    title: "MBA em inteligência Artificial para Gestão e Negócios",
     rating: 4.3,
     ratingCount: 1991,
     lessonCount: 6,
@@ -113,7 +113,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
-    title: "Criador Completo de Blender: Aprenda Modelagem 3D para Iniciantes",
+    title: "Gestão de Obras",
     lessonCount: 6,
     duration: 800,
     level: "Especialista",
@@ -135,7 +135,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
-    title: "O Curso Completo de Treinamento e Investimento para Analistas Financeiros",
+    title: "MBA em Direito Digital, Práticas em Proteção de Dados e Inteligência Artificial",
     lessonCount: 6,
     duration: 490,
     level: "Intermediário",
@@ -201,7 +201,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 4.2,
     ratingCount: 1991,
-    title: "Neuropsicologia",
+    title: "MBA em Licitações e Contratos: Governança e Gestão em Contratações e Aquisições Públicas",
     lessonCount: 6,
     duration: 720,
     level: "Iniciante",
@@ -245,7 +245,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 5,
     ratingCount: 1991,
-    title: "MBA em Inteligência e Estratégias em Marketing",
+    title: "MBA em Marketing: do Clássico ao Digital",
     lessonCount: 6,
     duration: 1440,
     level: "Iniciante",
@@ -265,7 +265,7 @@ export const coursesData = [
     id: 13,
     imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    title: "MBA em Maketing: do Clássico ao Digital",
+    title: "MBA em Marketing: Estratégia, Digital e Inteligência Artificial",
     rating: 4.3,
     ratingCount: 1991,
     lessonCount: 6,
@@ -375,7 +375,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
-    title: "Desenvolvimento de Jogos Unity 3D: Crie Seu Primeiro Jogo FPS",
+    title: "MBA em Gerenciamento de Obras, Qualidade e Desempenho da Construção",
     lessonCount: 6,
     duration: 800,
     level: "Especialista",
@@ -397,7 +397,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
-    title: "Finanças Pessoais e Investimentos: Garantindo Seu Futuro Financeiro",
+    title: "Direito Cibernético",
     lessonCount: 6,
     duration: 490,
     level: "Intermediário",
@@ -463,7 +463,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 4.2,
     ratingCount: 1991,
-    title: "Comportamento Alimentar e Psiconutrição",
+    title: "Direito Civil e Direito do Consumidor",
     lessonCount: 6,
     duration: 720,
     level: "Especialista",
@@ -477,8 +477,7 @@ export const coursesData = [
     state: "Tendência",
     viewStatus: "Médio",
     difficulty: "Médio",
-<<<<<<< HEAD
-    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
+    desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
   {
     id: 23,
@@ -501,9 +500,7 @@ export const coursesData = [
     viewStatus: "Médio",
     difficulty: "Difícil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-=======
     desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
->>>>>>> 2527e076831b4256829a557ec128fb7c172cf085
   },
   
   {
@@ -526,7 +523,6 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Médio",
     difficulty: "Difícil",
-<<<<<<< HEAD
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
   {
@@ -549,9 +545,7 @@ export const coursesData = [
     viewStatus: "Bom",
     difficulty: "Fácil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-=======
     desc: "Curso introdutório sobre técnicas de comunicação eficaz, expressão verbal e não verbal, e como se comunicar com clareza e confiança em diferentes contextos..",
->>>>>>> 2527e076831b4256829a557ec128fb7c172cf085
   },
   
   {
@@ -647,7 +641,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
-    title: "Introdução à Inteligência Artificial: Conceitos e Aplicações",
+    title: "MBA Energia Elétrica: Geração, Transmissão e Distribuição",
     lessonCount: 6,
     duration: 800,
     level: "Iniciante",
@@ -669,7 +663,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
-    title: "Edição de Vídeo com Adobe Premiere Pro: Do Gravação ao Corte Final",
+    title: "Direito Civil e Direito Processual Civil",
     lessonCount: 6,
     duration: 490,
     level: "Especialista",
@@ -735,7 +729,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 4.2,
     ratingCount: 1991,
-    title: "Master em Neuroarquitetura",
+    title: "Direto da Saúde e Compliance Hospitalar",
     lessonCount: 6,
     duration: 720,
     level: "Iniciante",
@@ -749,8 +743,7 @@ export const coursesData = [
     state: "Tendência",
     viewStatus: "Médio",
     difficulty: "Médio",
-<<<<<<< HEAD
-    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
+    desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
   {
     id: 35,
@@ -816,9 +809,7 @@ export const coursesData = [
     viewStatus: "Bom",
     difficulty: "Fácil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-=======
     desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
->>>>>>> 2527e076831b4256829a557ec128fb7c172cf085
   },
   
   
@@ -916,7 +907,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
-    title: "Domínio do Adobe Illustrator: Criando Contabilidade Vetorial",
+    title: "Avaliações e Perícias de Engenharia",
     lessonCount: 6,
     duration: 800,
     level: "Iniciante",
@@ -938,7 +929,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
-    title: "Ruby on Rails: Construindo Aplicações Web com Facilidade",
+    title: "Direito das Famílias e Sucessões",
     lessonCount: 6,
     duration: 490,
     level: "Intermediário",
