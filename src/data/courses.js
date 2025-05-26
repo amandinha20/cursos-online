@@ -1,7 +1,7 @@
 export const coursesData = [
   {
     id: 1,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Aprenda Figma - Treinamento Essencial de UI/UX Design",
     rating: 4.3,
@@ -67,7 +67,7 @@ export const coursesData = [
   },
   {
     id: 4,
-    imageSrc: "/assets/img/coursesCards/1.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "O Curso Definitivo de Desenho: Do Iniciante ao Avançado",
     rating: 4.2,
@@ -88,7 +88,7 @@ export const coursesData = [
   },
   {
     id: 5,
-    imageSrc: "/assets/img/coursesCards/11.png",
+    imageSrc: "/assets/img/coursesCards/4.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Masterclass de Fotografia: Um Guia Completo para Fotografia",
     rating: 3.8,
@@ -153,7 +153,7 @@ export const coursesData = [
   },
   {
     id: 8,
-    imageSrc: "/assets/img/coursesCards/5.png",
+    imageSrc: "/assets/img/coursesCards/4.png",
     imageAlt: "image",
     rating: 4.8,
     ratingCount: 1991,
@@ -219,7 +219,7 @@ export const coursesData = [
   },
   {
     id: 11,
-    imageSrc: "/assets/img/coursesCards/2.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     imageAlt: "image",
     rating: 5,
     ratingCount: 1991,
@@ -241,7 +241,7 @@ export const coursesData = [
   },
   {
     id: 12,
-    imageSrc: "/assets/img/coursesCards/4.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     imageAlt: "image",
     rating: 5,
     ratingCount: 1991,
@@ -263,7 +263,7 @@ export const coursesData = [
   },
   {
     id: 13,
-    imageSrc: "/assets/img/coursesCards/10.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "JavaScript Avançado: Explorando ES6 e Além",
     rating: 4.3,
@@ -329,7 +329,7 @@ export const coursesData = [
   },
   {
     id: 16,
-    imageSrc: "/assets/img/coursesCards/7.png",
+    imageSrc: "/assets/img/coursesCards/2.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Marketing de Mídia Social: Estratégias para Crescer Seu Público",
     rating: 4.2,
@@ -350,7 +350,7 @@ export const coursesData = [
   },
   {
     id: 17,
-    imageSrc: "/assets/img/coursesCards/10.png",
+    imageSrc: "/assets/img/coursesCards/4.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Fotografia de Paisagem: Capturando a Beleza da Natureza",
     rating: 3.8,
@@ -371,7 +371,7 @@ export const coursesData = [
   },
   {
     id: 18,
-    imageSrc: "/assets/img/coursesCards/1.png",
+    imageSrc: "/assets/img/coursesCards/6.png",
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
@@ -481,7 +481,7 @@ export const coursesData = [
   },
   {
     id: 23,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     imageAlt: "image",
     rating: 5,
     ratingCount: 1991,
@@ -503,7 +503,7 @@ export const coursesData = [
   },
   {
     id: 24,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     imageAlt: "image",
     rating: 5,
     ratingCount: 1991,
@@ -525,7 +525,7 @@ export const coursesData = [
   },
   {
     id: 25,
-    imageSrc: "/assets/img/coursesCards/2.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Desenvolvimento Web Front-End: Fundamentos de HTML, CSS e JavaScript",
     rating: 4.3,
@@ -591,7 +591,7 @@ export const coursesData = [
   },
   {
     id: 28,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/2.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Java Enterprise Edition (EE): Construindo Aplicações Web Escaláveis",
     rating: 4.2,
@@ -612,7 +612,7 @@ export const coursesData = [
   },
   {
     id: 29,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/4.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Design de Aplicativos iOS: Interface do Usuário e Experiência do Usuário (UI/UX)",
     rating: 3.8,
@@ -633,7 +633,7 @@ export const coursesData = [
   },
   {
     id: 30,
-    imageSrc: "/assets/img/coursesCards/9.png",
+    imageSrc: "/assets/img/coursesCards/2.png",
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
@@ -677,7 +677,7 @@ export const coursesData = [
   },
   {
     id: 32,
-    imageSrc: "/assets/img/coursesCards/9.png",
+    imageSrc: "/assets/img/coursesCards/4.png",
     imageAlt: "image",
     rating: 4.8,
     ratingCount: 1991,
@@ -743,7 +743,7 @@ export const coursesData = [
   },
   {
     id: 35,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     imageAlt: "image",
     rating: 5,
     ratingCount: 1991,
@@ -765,7 +765,7 @@ export const coursesData = [
   },
   {
     id: 36,
-    imageSrc: "/assets/img/coursesCards/1.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     imageAlt: "image",
     rating: 5,
     ratingCount: 1991,
@@ -787,7 +787,7 @@ export const coursesData = [
   },
   {
     id: 37,
-    imageSrc: "/assets/img/coursesCards/12.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Design de Jogos e Narrativa: Criando Experiências de Jogo Imersivas",
     rating: 4.3,
@@ -853,7 +853,7 @@ export const coursesData = [
   },
   {
     id: 40,
-    imageSrc: "/assets/img/coursesCards/8.png",
+    imageSrc: "/assets/img/coursesCards/4.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Web Scraping com Python: Extraindo Dados de Sites",
     rating: 4.2,
@@ -874,7 +874,7 @@ export const coursesData = [
   },
   {
     id: 41,
-    imageSrc: "/assets/img/coursesCards/3.png",
+    imageSrc: "/assets/img/coursesCards/4.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Análise de Marketing Digital: Medindo e Otimizando Campanhas",
     rating: 3.8,
@@ -895,7 +895,7 @@ export const coursesData = [
   },
   {
     id: 42,
-    imageSrc: "/assets/img/coursesCards/11.png",
+    imageSrc: "/assets/img/coursesCards/2.png",
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
@@ -965,7 +965,7 @@ export const resentCourses = [
   },
   {
     id: 2,
-    imageSrc: "/assets/img/dashboard/recent-courses/2.png",
+    imageSrc: "/assets/img/dashboard/recent-courses/3.png",
     title: "O Curso Definitivo de Desenho: Do Iniciante ao Avançado",
     author: "Ali Tufan",
     authorImg: `/assets/img/general/avatar-1.png`,
