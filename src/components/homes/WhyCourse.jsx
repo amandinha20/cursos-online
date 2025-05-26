@@ -20,7 +20,9 @@ export default function WhyCourse() {
                 data-aos="fade-up"
                 data-aos-duration={800}
               >
-                Lorem ipsum dolor sit amet, consectetur.
+                <p className="sectionTitle__text ">
+                 Escolha entre as principais áreas do conhecimento e encontre o curso ideal para você.
+              </p>
               </p>
             </div>
           </div>
