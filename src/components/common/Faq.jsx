@@ -15,7 +15,7 @@ export default function Faq() {
               </h2>
 
               <p className="sectionTitle__text ">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                Encontre respostas para as dúvidas mais comuns sobre nossos cursos e plataforma.
               </p>
             </div>
 
