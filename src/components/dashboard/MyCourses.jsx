@@ -9,6 +9,7 @@ const ddItems = [
   { id: 3, label: "Design" },
   { id: 4, label: "ilustração" },
   { id: 5, label: "Negócios" },
+  { id: 6, label: "Psicologia" },
 ];
 export default function MyCourses() {
   const [currentCategory, setCurrentCategory] = useState("Todas as categorias");
@@ -56,9 +57,8 @@ export default function MyCourses() {
               <div className="tabs -active-purple-2 js-tabs">
                 <div className="tabs__controls d-flex items-center pt-20 px-30 border-bottom-light js-tabs-controls">
                   <button
-                    className={`text-light-1 lh-12 tabs__button js-tabs-button ${
-                      activeTab == 1 ? "is-active" : ""
-                    } `}
+                    className={`text-light-1 lh-12 tabs__button js-tabs-button ${activeTab == 1 ? "is-active" : ""
+                      } `}
                     data-tab-target=".-tab-item-1"
                     type="button"
                     onClick={() => setActiveTab(1)}
@@ -66,9 +66,8 @@ export default function MyCourses() {
                     Todos os cursos
                   </button>
                   <button
-                    className={`text-light-1 lh-12 tabs__button js-tabs-button ml-30 ${
-                      activeTab == 2 ? "is-active" : ""
-                    } `}
+                    className={`text-light-1 lh-12 tabs__button js-tabs-button ml-30 ${activeTab == 2 ? "is-active" : ""
+                      } `}
                     data-tab-target=".-tab-item-2"
                     type="button"
                     onClick={() => setActiveTab(2)}
@@ -76,14 +75,13 @@ export default function MyCourses() {
                     Finalizado
                   </button>
                   <button
-                    className={`text-light-1 lh-12 tabs__button js-tabs-button ml-30 ${
-                      activeTab == 3 ? "is-active" : ""
-                    } `}
+                    className={`text-light-1 lh-12 tabs__button js-tabs-button ml-30 ${activeTab == 3 ? "is-active" : ""
+                      } `}
                     data-tab-target=".-tab-item-3"
                     type="button"
                     onClick={() => setActiveTab(3)}
                   >
-                   Não inscrito 
+                    Não inscrito
                   </button>
                 </div>
 
@@ -140,17 +138,16 @@ export default function MyCourses() {
                                 className="toggle-element -dropdown -dark-bg-dark-2 -dark-border-white-10 js-click-dropdown js-category-toggle"
                               >
                                 <div className="text-14 y-gap-15 js-dropdown-list">
-                                  {ddItems.map((item, ind) => (
+                                  {ddItems.map((item, id) => (
                                     <div
                                       onClick={() =>
                                         setCurrentCategory(item.label)
                                       }
-                                      key={ind}
-                                      className={`d-block js-dropdown-link cursor ${
-                                        currentCategory == item.label
-                                          ? "activeMenu"
-                                          : ""
-                                      } `}
+                                      key={id}
+                                      className={`d-block js-dropdown-link cursor ${currentCategory == item.label
+                                        ? "activeMenu"
+                                        : ""
+                                        } `}
                                     >
                                       <span
                                         style={{ cursor: "pointer" }}
@@ -183,7 +180,7 @@ export default function MyCourses() {
                                 data-el-toggle-active=".js-review-active"
                               >
                                 <span className="js-dropdown-title">
-                                Revisão antiga
+                                  Revisão antiga
                                 </span>
                                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
                               </div>
