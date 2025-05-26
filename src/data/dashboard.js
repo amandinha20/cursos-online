@@ -95,7 +95,7 @@ export const coursesData = [
   },
   {
     id: 4,
-    imageSrc: "/assets/img/coursesCards/4.png",
+    imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "O curso de desenho definitivo do iniciante ao avançado",
     rating: 4.2,
