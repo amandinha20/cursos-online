@@ -37,11 +37,11 @@ export default function HeaderEight() {
               <div className="d-flex x-gap-40 y-gap-10 items-center">
                 <div className="d-flex items-center text-dark-1 md:d-none">
                   <div className="icon-phone mr-10"></div>
-                  <div className="text-13 lh-1">(00) 242 844 39 88</div>
+                  <div className="text-13 lh-1">(62) 242 844 39 88</div>
                 </div>
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-email mr-10"></div>
-                  <div className="text-13 lh-1">hello@educrat.com</div>
+                  <div className="text-13 lh-1">hello@Institutosaber.com</div>
                 </div>
               </div>
             </div>

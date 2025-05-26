@@ -44,7 +44,8 @@ export default function HeaderAuth() {
                   href="signup"
                   className="button -sm -rounded -dark-1 text-white"
                 >
-                  Sign Up
+                  
+                  Inscrever-se
                 </a>
               </div>
             </div>

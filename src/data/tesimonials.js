@@ -5,7 +5,7 @@ export const testimonials = [
     name: "Courtney Henry",
     position: "Designer Web",
     comment: "Ótimo trabalho",
-    description: `Acho que o Educrat é o melhor tema que já vi este ano.
+    description: `Acho que o Instituto Saber+ é o melhor tema que já vi este ano.
 Design incrível, fácil de personalizar e qualidade de design
 Conta superlativa em sua plataforma de nuvem para
 desempenho otimizado`,
@@ -16,7 +16,7 @@ desempenho otimizado`,
     name: "Ronald Richards",
     position: "Presidente de Vendas",
     comment: "Ótimo trabalho",
-    description: `Acho que o Educrat é o melhor tema que já vi este ano.
+    description: `Acho que o Instituto Saber+ é o melhor tema que já vi este ano.
 Design incrível, fácil de personalizar e qualidade de design
 Conta superlativa em sua plataforma de nuvem para
 desempenho otimizado`,

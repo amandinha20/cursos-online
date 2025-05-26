@@ -42,7 +42,7 @@ export default function About() {
 
             <div className="col-lg-5">
               <h2 className="text-30 lh-16">
-                Bem-vindo à Educrat. Melhore suas habilidades com os melhores cursos online
+                Bem-vindo ao Instituto Saber+. Melhore suas habilidades com os melhores cursos online
               </h2>
               <p className="text-dark-1 mt-30">
                 Você pode começar e terminar um desses cursos populares em menos de um dia – de graça! Confira a lista abaixo. Faça o curso de graça.

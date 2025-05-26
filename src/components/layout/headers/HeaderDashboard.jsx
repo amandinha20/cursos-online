@@ -301,7 +301,24 @@ export default function HeaderDashboard() {
                                 className="d-flex items-center text-17 lh-1 fw-500 "
                               >
                                 <i className={elm.iconClass}></i>
-                                {elm.text}
+                                {/* Tradução dos textos do menu do dashboard */}
+                                {elm.text === "Dashboard" && "Painel"}
+                                {elm.text === "My Courses" && "Meus Cursos"}
+                                {elm.text === "Bookmarks" && "Favoritos"}
+                                {elm.text === "Add Listing" && "Adicionar Curso"}
+                                {elm.text === "Reviews" && "Avaliações"}
+                                {elm.text === "Settings" && "Configurações"}
+                                {/* fallback para outros textos */}
+                                {[
+                                  "Dashboard",
+                                  "My Courses",
+                                  "Bookmarks",
+                                  "Add Listing",
+                                  "Reviews",
+                                  "Settings",
+                                ].includes(elm.text)
+                                  ? ""
+                                  : elm.text}
                               </a>
                             </div>
                           ))}

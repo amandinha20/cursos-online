@@ -47,7 +47,7 @@ export default function FooterSeven() {
               <div className="">
                 <div className="">Precisa de suporte ao vivo?</div>
                 <div className="text-18 lh-1 fw-500 text-dark-1 mt-5">
-                  hi@educrat.com
+                  hi@InstitutoSaber.com
                 </div>
               </div>
             </div>

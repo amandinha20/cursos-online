@@ -89,15 +89,15 @@
 :root {
   --color-white: #FFFFFF;
   --color-black: #000000;
-  --color-dark-1: #140342;
-  --color-dark-2: #1A064F;
-  --color-dark-3: #6A7A99;
-  --color-dark-4: #242239;
-  --color-dark-5: #282664;
-  --color-dark-6: #311F61;
+  --color-dark-1: #b9060c;
+  --color-dark-2: #8a131d;
+  --color-dark-3: #c03380;
+  --color-dark-4: #8b1653;
+  --color-dark-5: #b0041e;
+  --color-dark-6: #d3314f;
   --color-dark-7: #EAE9EF;
   --color-dark-8: #202124;
-  --color-light-1: #4F547B;
+  --color-light-1: #7a4f7b;
   --color-light-2: #E4E7EA;
   --color-light-3: #EEF2F6;
   --color-light-4: #F7F8FB;
@@ -109,15 +109,15 @@
   --color-light-10: #F4F3F6;
   --color-light-11: #EBEAFE;
   --color-light-12: #CCE0F8;
-  --color-purple-1: #6440FB;
+  --color-purple-1: #890f13; /* <- Cor principal do projeto. Altere este valor para mudar a cor principal */
   --color-purple-2: #E3EDFD;
   --color-purple-3: #F4F1FE;
-  --color-purple-4: #7545F0;
+  --color-purple-4: #d74a4f;
   --color-purple-5: #EAE3FD;
-  --color-green-1: #00FF84;
-  --color-green-2: #DEF5F0;
+  --color-green-1: #7270f4;
+  --color-green-2: #73d2bd;
   --color-green-3: #EEF8F5;
-  --color-green-4: #04D697;
+  --color-green-4: #5d5ac8;
   --color-green-5: #34A853;
   --color-green-6: #DFF1DD;
   --color-green-7: #D9FFED;
@@ -1093,17 +1093,17 @@ html.-dark-mode .-dark-d-none {
 
 html.-dark-mode {
   --color-dark-1: #FFF !important;
-  --color-light-3: #2B1C55 !important;
-  --color-light-4: #2B1C55 !important;
-  --color-light-5: #2B1C55 !important;
-  --color-light-6: #2B1C55 !important;
-  --color-light-9: #2B1C55 !important;
-  --color-purple-3: #2B1C55 !important;
-  --white: #140342 !important;
+  --color-light-3: #bf0303 !important;
+  --color-light-4: #bf0303 !important;
+  --color-light-5: #bf0303 !important;
+  --color-light-6: #bf0303 !important;
+  --color-light-9: #bf0303 !important;
+  --color-purple-3: #bf0303 !important;
+  --white: #bf0303 !important;
 }
 
 html.-dark-mode body {
-  background-color: #140342 !important;
+  background-color: #8f0b2c !important;
   color: var(--color-dark-3) !important;
 }
 
@@ -1129,15 +1129,15 @@ html.-dark-mode .pagination-white-dot-dark .swiper-pagination-bullet-active {
 
 
 html.-dark-mode .header.-base-sidebar {
-  background-color: #140342 !important;
+  background-color: #8c1a06 !important;
 }
 
 html.-dark-mode .header.-base-sidebar .icon {
-  color: #6A7A99 !important;
+  color: #618be0 !important;
 }
 
 html.-dark-mode .dashboard__sidebar {
-  background-color: #140342;
+  background-color: #b0070f;
 }
 
 html.-dark-mode .-dark-sidebar-white {
@@ -1145,15 +1145,15 @@ html.-dark-mode .-dark-sidebar-white {
 }
 
 html.-dark-mode .-dark-bg-dark-1 {
-  background-color: #140342 !important;
+  background-color: #c20505 !important;
 }
 
 html.-dark-mode .-dark-bg-dark-2 {
-  background-color: #2B1C55 !important;
+  background-color: #b91010 !important;
 }
 
 html.-dark-mode .-dark-text-dark-1 {
-  color: #140342 !important;
+  color: #ab0619 !important;
 }
 
 html.-dark-mode .-dark-text-white {
@@ -1177,7 +1177,7 @@ html.-dark-mode .-dark-border-white-10 {
 }
 
 html.-dark-mode .-dark-border-dark-2 {
-  border: 1px solid #2B1C55 !important;
+  border: 1px solid #c90f0f !important;
 }
 
 html.-dark-mode .sidebar.-base-sidebar .sidebar__item.-is-active {
@@ -1185,12 +1185,12 @@ html.-dark-mode .sidebar.-base-sidebar .sidebar__item.-is-active {
 }
 
 html.-dark-mode .-dark-button-dark-1 {
-  border-color: #140342 !important;
-  background-color: #140342 !important;
+  border-color: #ab0a12 !important;
+  background-color: #a30a0a !important;
 }
 
 html.-dark-mode .-dark-button-dark-1:hover {
-  color: #140342 !important;
+  color: #ab0808 !important;
 }
 
 html.-dark-mode .form-switch .switch__slider {
@@ -1202,14 +1202,14 @@ html.-dark-mode .form-switch .switch__slider::before {
 }
 
 html.-dark-mode .-dark-button-dark-2 {
-  border-color: #2B1C55 !important;
+  border-color: #970303 !important;
   background-color: #2B1C55 !important;
 }
 
 html.-dark-mode .-dark-button-white {
   border-color: white !important;
   background-color: white !important;
-  color: #140342 !important;
+  color: #c91515 !important;
 }
 
 html.-dark-mode .-dark-button-white:hover {
@@ -2655,7 +2655,7 @@ button:focus {
 }
 
 .button.-gradient-1 {
-  background: linear-gradient(90deg, #6440FB 0%, #E8543E 108.34%);
+  background: linear-gradient(90deg, #e424d4 0%, #E8543E 108.34%);
 }
 
 .button.-gradient-1:hover {
