@@ -1,47 +1,59 @@
 export const testimonials = [
   {
     id: 0,
-    imageSrc: "/assets/img/testimonials/1.png",
-    name: "Courtney Henry",
+    imageSrc: "/assets/img/testimonials/0.png",
+    name: "Lucas Almeida",
     position: "Designer Web",
-    comment: "Ótimo trabalho",
-    description: `Acho que o Instituto Saber+ é o melhor tema que já vi este ano.
-Design incrível, fácil de personalizar e qualidade de design
-Conta superlativa em sua plataforma de nuvem para
-desempenho otimizado`,
+    comment: "Aprendizado surpreendente",
+    description: `O Instituto Saber+ me proporcionou uma experiência única de aprendizado, com conteúdos inovadores e suporte eficiente.`,
   },
   {
     id: 1,
-    imageSrc: "/assets/img/testimonials/2.png",
-    name: "Ronald Richards",
+    imageSrc: "/assets/img/testimonials/1.png",
+    name: "Marina Souza",
     position: "Presidente de Vendas",
-    comment: "Ótimo trabalho",
-    description: `Acho que o Instituto Saber+ é o melhor tema que já vi este ano.
-Design incrível, fácil de personalizar e qualidade de design
-Conta superlativa em sua plataforma de nuvem para
-desempenho otimizado`,
+    comment: "Plataforma excelente",
+    description: `A plataforma é intuitiva e os cursos são muito bem estruturados. Consegui evoluir rapidamente na minha carreira.`,
   },
   {
     id: 2,
-    imageSrc: "/assets/img/testimonials/3.png",
-    name: "Annette Black",
+    imageSrc: "/assets/img/testimonials/2.png",
+    name: "Felipe Castro",
     position: "Auxiliar de Enfermagem",
-    comment: "Ótimo trabalho",
-    description: `Acho que o Educrat é o melhor tema que já vi este ano.
-Design incrível, fácil de personalizar e qualidade de design
-Conta superlativa em sua plataforma de nuvem para
-desempenho otimizado`,
+    comment: "Superou minhas expectativas",
+    description: `O Educrat superou minhas expectativas com aulas práticas e instrutores dedicados. Recomendo para todos que querem crescer.`,
   },
   {
     id: 3,
-    imageSrc: "/assets/img/testimonials/4.png",
-    name: "Courtney Henry",
+    imageSrc: "/assets/img/testimonials/3.png",
+    name: "Patrícia Lima",
     position: "Designer Web",
-    comment: "Ótimo trabalho",
-    description: `Acho que o Educrat é o melhor tema que já vi este ano.
-Design incrível, fácil de personalizar e qualidade de design
-Conta superlativa em sua plataforma de nuvem para
-desempenho otimizado`,
+    comment: "Contenúdo de qualidade",
+    description: `Gostei muito da variedade de cursos e da facilidade de acesso ao conteúdo. O Educrat realmente faz a diferença.`,
+  },
+    {
+    id: 4,
+    imageSrc: "/assets/img/testimonials/4.png",
+    name: "Rafael Mendes",
+    position: "Analista de Sistemas",
+    comment: "Recomendo muito",
+    description: `Os conteúdos são atualizados e os professores sempre dispostos a ajudar. Aprendi muito mais do que esperava.`,
+  },
+  {
+    id: 5,
+    imageSrc: "/assets/img/testimonials/5.png",
+    name: "Juliana Torres",
+    position: "Estudante de Administração",
+    comment: "Experiência incrível",
+    description: `A didática dos cursos é excelente e o suporte ao aluno faz toda a diferença. Me senti acolhida desde o início.`,
+  },
+  {
+    id: 6,
+    imageSrc: "/assets/img/testimonials/6.png",
+    name: "Carlos Henrique",
+    position: "Professor de Matemática",
+    comment: "Muito satisfeito",
+    description: `A plataforma oferece uma grande variedade de cursos e materiais de apoio. Consegui aprimorar minhas habilidades de forma prática.`,
   },
 ];
 
