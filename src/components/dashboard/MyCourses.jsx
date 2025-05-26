@@ -11,7 +11,7 @@ const ddItems = [
   { id: 5, label: "Negócios" },
 ];
 export default function MyCourses() {
-  const [currentCategory, setCurrentCategory] = useState("Todas as ctaegorias");
+  const [currentCategory, setCurrentCategory] = useState("Todas as categorias");
   const [pageItems, setPageItems] = useState([]);
   const [activeTab, setActiveTab] = useState(1);
   const [pageData, setPageData] = useState(coursesData);
