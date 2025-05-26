@@ -24,7 +24,9 @@ const CategoriesHomeOne = () => {
                 <h2 className="sectionTitle__title ">Principais categorias</h2>
 
                 <p className="sectionTitle__text ">
-                  Lorem ipsum dolor sit amet, consectetur.
+                  <p className="sectionTitle__text ">
+                    Escolha entre as principais áreas do conhecimento e encontre o curso ideal para você.
+                  </p>
                 </p>
               </div>
             </div>

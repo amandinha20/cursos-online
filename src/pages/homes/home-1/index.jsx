@@ -16,6 +16,7 @@ import Blog from "@/components/homes/blogs/Blog";
 import Join from "@/components/homes/join/Join";
 import FooterOne from "@/components/layout/footers/FooterOne";
 import Preloader from "@/components/common/Preloader";
+import Highlights from "@/components/layout/component/Highlights";
 
 import MetaComponent from "@/components/common/MetaComponent";
 
@@ -43,6 +44,7 @@ export default function HomePage1() {
         <WhyCourse />
         <Instructors />
         <GetApp />
+        <Highlights />
         <Blog />
         <Join />
         <FooterOne />

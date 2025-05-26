@@ -17,7 +17,7 @@ export default function News() {
               <h2 className="sectionTitle__title ">Recursos e Notícias</h2>
 
               <p className="sectionTitle__text ">
-                Lorem ipsum dolor sit amet, consectetur.
+                Fique por dentro das novidades, dicas e eventos do mundo da educação online.
               </p>
             </div>
           </div>
