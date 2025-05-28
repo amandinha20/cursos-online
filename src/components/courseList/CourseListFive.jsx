@@ -3,7 +3,6 @@ import {
   coursesData,
   duration,
   instractorNames,
-  languages,
   levels,
   prices,
   rating,
@@ -113,14 +112,8 @@ export default function CourseListFive() {
       setSortedFilteredData(
         [...filteredData].sort((a, b) => b.rating - a.rating),
       );
-    } else if (currentSortingOption == "Preço (asc)") {
-      setSortedFilteredData(
-        [...filteredData].sort((a, b) => a.discountedPrice - b.discountedPrice),
-      );
-    } else if (currentSortingOption == "Preço (dsc)") {
-      setSortedFilteredData(
-        [...filteredData].sort((a, b) => b.discountedPrice - a.discountedPrice),
-      );
+    
+    
     } else if (currentSortingOption == "Duração (asc)") {
       setSortedFilteredData(
         [...filteredData].sort((a, b) => a.duration - b.duration),
