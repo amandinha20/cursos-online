@@ -23,7 +23,7 @@ export const reviews = [
   {
     id: 1,
     avatarSrc: "/assets/img/avatars/1.png",
-    name: "Ali Tufan",
+    name: "Sarah Johnson",
     date: "3 days ago",
     rating: 5,
     title: "The best LMS design",
@@ -33,7 +33,7 @@ export const reviews = [
   {
     id: 2,
     avatarSrc: "/assets/img/avatars/1.png",
-    name: "Ali Tufan",
+    name: "Sarah Johnson",
     date: "3 days ago",
     rating: 5,
     title: "The best LMS design",
@@ -43,7 +43,7 @@ export const reviews = [
   {
     id: 3,
     avatarSrc: "/assets/img/avatars/1.png",
-    name: "Ali Tufan",
+    name: "Sarah Johnson",
     date: "3 days ago",
     rating: 5,
     title: "The best LMS design",

@@ -266,7 +266,7 @@ export default function InstractorSingle({ id }) {
                               <div className="coursesCard-footer">
                                 <div className="coursesCard-footer__author">
                                   <img src={elm.authorImageSrc} alt="image" />
-                                  <div>Ali Tufa{elm.authorName}</div>
+                                  <div>Sarah Johnson{elm.authorName}</div>
                                 </div>
 
                                 <div className="coursesCard-footer__price">

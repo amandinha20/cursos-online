@@ -34,7 +34,7 @@ export const coursesData = [
     discountedPrice: 89,
     paid: true,
     category: "Psicologia",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jenny Wilson",
     popular: true,
     new: true,
@@ -56,7 +56,7 @@ export const coursesData = [
     level: "Intermediário",
     originalPrice: 249,
     discountedPrice: 129,
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Albert Flores",
     paid: true,
     category: "Psicologia",
@@ -77,7 +77,7 @@ export const coursesData = [
     level: "Especialista",
     originalPrice: 179,
     discountedPrice: 99,
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jacob Jones",
     paid: true,
     category: "Contabilidade",
@@ -100,7 +100,7 @@ export const coursesData = [
     discountedPrice: 79,
     paid: true,
     category: "Saúde",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Robert Fox",
     state: "Popular",
     viewStatus: "Baixo",
@@ -118,7 +118,7 @@ export const coursesData = [
     duration: 10200,
     level: "Especialista",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jane Cooper",
     originalPrice: 209,
     discountedPrice: 99,
@@ -140,7 +140,7 @@ export const coursesData = [
     duration: 1020,
     level: "Intermediário",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jenny Wilson",
     originalPrice: 299,
     discountedPrice: 149,
@@ -162,7 +162,7 @@ export const coursesData = [
     duration: 1020,
     level: "Especialista",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Albert Flores",
     originalPrice: 219,
     discountedPrice: 109,
@@ -184,7 +184,7 @@ export const coursesData = [
     duration: 410,
     level: "Intermediário",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jacob Jones",
     originalPrice: 199,
     discountedPrice: 89,
@@ -202,11 +202,12 @@ export const coursesData = [
     rating: 4.2,
     ratingCount: 1991,
     title: "MBA em Licitações e Contratos: Governança e Gestão em Contratações e Aquisições Públicas",
+    title: "",
     lessonCount: 6,
     duration: 1020,
     level: "Iniciante",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Robert Fox",
     originalPrice: 189,
     discountedPrice: 99,
@@ -228,7 +229,7 @@ export const coursesData = [
     duration: 1020,
     level: "Intermediário",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jane Cooper",
     originalPrice: 209,
     discountedPrice: 119,
@@ -250,7 +251,7 @@ export const coursesData = [
     duration: 1020,
     level: "Iniciante",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jenny Wilson",
     originalPrice: 209,
     discountedPrice: 119,
@@ -276,7 +277,7 @@ export const coursesData = [
     paid: true,
     category: "Comunicação",
     state: "Popular",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Albert Flores",
     viewStatus: "Bom",
     difficulty: "Fácil",
@@ -296,7 +297,7 @@ export const coursesData = [
     discountedPrice: 89,
     paid: true,
     category: "Psicologia",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jacob Jones",
     popular: true,
     new: true,
@@ -318,7 +319,7 @@ export const coursesData = [
     level: "Intermediário",
     originalPrice: 249,
     discountedPrice: 129,
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Robert Fox",
     paid: true,
     category: "Psicologia",
@@ -339,7 +340,7 @@ export const coursesData = [
     level: "Iniciante",
     originalPrice: 179,
     discountedPrice: 99,
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jane Cooper",
     paid: true,
     category: "Contabilidade",
@@ -362,7 +363,7 @@ export const coursesData = [
     discountedPrice: 79,
     paid: true,
     category: "Saúde",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jenny Wilson",
     state: "Popular",
     viewStatus: "Baixo",
@@ -380,7 +381,7 @@ export const coursesData = [
     duration: 1020,
     level: "Especialista",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Albert Flores",
     originalPrice: 209,
     discountedPrice: 99,
@@ -402,7 +403,7 @@ export const coursesData = [
     duration: 1020,
     level: "Intermediário",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jacob Jones",
     originalPrice: 299,
     discountedPrice: 149,
@@ -424,7 +425,7 @@ export const coursesData = [
     duration: 1020,
     level: "Especialista",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Robert Fox",
     originalPrice: 219,
     discountedPrice: 109,
@@ -446,7 +447,7 @@ export const coursesData = [
     duration: 410,
     level: "Intermediário",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jane Cooper",
     originalPrice: 199,
     discountedPrice: 89,
@@ -464,11 +465,12 @@ export const coursesData = [
     rating: 4.2,
     ratingCount: 1991,
     title: "Direito Civil e Direito do Consumidor",
+    title: "",
     lessonCount: 6,
     duration: 1020,
     level: "Especialista",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jenny Wilson",
     originalPrice: 0,
     discountedPrice: 0,
@@ -481,7 +483,7 @@ export const coursesData = [
   },
 
   {
-    id: 24,
+    id: 23, // era 24 duplicado
     imageSrc: "/assets/img/coursesCards/3.png",
     imageAlt: "image",
     rating: 5,
@@ -491,7 +493,7 @@ export const coursesData = [
     duration: 1020,
     level: "Iniciante",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português",
     authorName: "Jacob Jones",
     originalPrice: 0,
     discountedPrice: 0,
@@ -501,6 +503,27 @@ export const coursesData = [
     viewStatus: "Médio",
     difficulty: "Difícil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
+  },
+  {
+    id: 24, // Desenvolvimento Web Front-End...
+    imageSrc: "/assets/img/coursesCards/3.png",
+    authorImageSrc: "/assets/img/general/avatar-1.png",
+    title: "Desenvolvimento Web Front-End: Fundamentos de HTML, CSS e JavaScript",
+    rating: 4.3,
+    ratingCount: 1991,
+    lessonCount: 6,
+    duration: 1320,
+    level: "Intermediário",
+    originalPrice: 199,
+    discountedPrice: 79,
+    paid: true,
+    category: "Design",
+    state: "Popular",
+    language: "Inglês",
+    authorName: "Robert Fox",
+    viewStatus: "Bom",
+    difficulty: "Fácil",
+    desc: "Curso introdutório sobre técnicas de comunicação eficaz, expressão verbal e não verbal, e como se comunicar com clareza e confiança em diferentes contextos..",
   },
 
   {
@@ -517,7 +540,7 @@ export const coursesData = [
     discountedPrice: 0,
     paid: false,
     category: "Psicologia",
-    languange: "Português",
+    language: "Português",
     authorName: "Albert Flores",
     popular: true,
     new: true,
@@ -539,7 +562,7 @@ export const coursesData = [
     level: "Especialista",
     originalPrice: 249,
     discountedPrice: 129,
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jane Cooper",
     paid: true,
     category: "Psicologia",
@@ -560,7 +583,7 @@ export const coursesData = [
     level: "Iniciante",
     originalPrice: 0,
     discountedPrice: 0,
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jenny Wilson",
     paid: false,
     category: "Contabilidade",
@@ -583,7 +606,7 @@ export const coursesData = [
     discountedPrice: 79,
     paid: true,
     category: "Saúde",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jacob Jones",
     state: "Popular",
     viewStatus: "Baixo",
@@ -601,7 +624,7 @@ export const coursesData = [
     duration: 1020,
     level: "Iniciante",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Albert Flores",
     originalPrice: 0,
     discountedPrice: 0,
@@ -623,7 +646,7 @@ export const coursesData = [
     duration: 1020,
     level: "Especialista",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Albert Flores",
     originalPrice: 299,
     discountedPrice: 149,
@@ -645,7 +668,7 @@ export const coursesData = [
     duration: 1020,
     level: "Iniciante",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jane Cooper",
     originalPrice: 0,
     discountedPrice: 0,
@@ -667,7 +690,7 @@ export const coursesData = [
     duration: 410,
     level: "Especialista",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jenny Wilson",
     originalPrice: 199,
     discountedPrice: 89,
@@ -689,7 +712,7 @@ export const coursesData = [
     duration: 1020,
     level: "Iniciante",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jacob Jones",
     originalPrice: 0,
     discountedPrice: 0,
@@ -700,39 +723,53 @@ export const coursesData = [
     difficulty: "Médio",
     desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
-
-
-
-  
-
-
+  {
+    id: 34,
+    imageSrc: "/assets/img/coursesCards/3.png",
+    imageAlt: "image",
+    rating: 5,
+    ratingCount: 1991,
+    title: "Estratégia de Marketing de Conteúdo: Engajando Seu Público-Alvo",
+    lessonCount: 6,
+    duration: 120,
+    level: "Intermediário",
+    authorImageSrc: "/assets/img/general/avatar-1.png",
+    language: "Italiano",
+    authorName: "Albert Flores",
+    originalPrice: 209,
+    discountedPrice: 119,
+    paid: true,
+    category: "Design",
+    state: "Popular",
+    viewStatus: "Médio",
+    difficulty: "Difícil",
+    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
+  },
 
   {
-    id: 38,
-    imageSrc: "/assets/img/coursesCards/5.png",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    title: "Comportamento Alimentar e Psiconutrição",
-    rating: 4.7,
+    id: 35, // era 36 duplicado
+    imageSrc: "/assets/img/coursesCards/3.png",
+    imageAlt: "image",
+    rating: 5,
     ratingCount: 1991,
+    title: "Fotografia de Vida Selvagem: Capturando Animais em Seu Habitat Natural",
     lessonCount: 6,
-    duration: 410,
+    duration: 120,
     level: "Especialista",
+    authorImageSrc: "/assets/img/general/avatar-1.png",
+    language: "Francês",
+    authorName: "Albert Flores",
     originalPrice: 0,
     discountedPrice: 0,
     paid: false,
-    category: "Psicologia",
-    languange: "Português",
-    authorName: "Jenny Wilson",
-    popular: true,
-    new: true,
-    bestSeller: true,
-    state: "Destaque",
-    viewStatus: "Baixo",
-    difficulty: "Fácil",
-    desc: "Curso introdutório sobre os principais conceitos da Psicologia, abordando o comportamento humano, emoções, mente e as bases do desenvolvimento psicológico.",
+    category: "Design",
+    state: "Popular",
+    viewStatus: "Médio",
+    difficulty: "Difícil",
+    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
   {
-    id: 36,
+    id: 36, // MBA em Desenvolvimento Humano...
     imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "MBA em Desenvolvimento Humano, Psicologia Positiva e Bem-Estar nas Organizações",
@@ -743,7 +780,7 @@ export const coursesData = [
     level: "Intermediário",
     originalPrice: 249,
     discountedPrice: 129,
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Robert Fox",
     paid: true,
     category: "Psicologia",
@@ -753,7 +790,7 @@ export const coursesData = [
     desc: "Curso introdutório sobre os principais conceitos da Psicologia, abordando o comportamento humano, emoções, mente e as bases do desenvolvimento psicológico.",
   },
   {
-    id: 37,
+    id: 37, // MBA em Controladoria...
     imageSrc: "/assets/img/coursesCards/1.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "MBA em Controladoria, Auditoria e Perícia Contábil",
@@ -764,7 +801,7 @@ export const coursesData = [
     level: "Iniciante",
     originalPrice: 179,
     discountedPrice: 99,
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jacob Jones",
     paid: true,
     category: "Contabilidade",
@@ -774,7 +811,7 @@ export const coursesData = [
     desc: "Curso introdutório sobre os princípios básicos da Contabilidade, incluindo registros financeiros, balanços patrimoniais e noções de controle e análise contábil.",
   },
   {
-    id: 38,
+    id: 38, // Master em Fisioterapia...
     imageSrc: "/assets/img/coursesCards/4.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Master em Fisioterapia no Manejo da Dor",
@@ -787,7 +824,7 @@ export const coursesData = [
     discountedPrice: 79,
     paid: true,
     category: "Saúde",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jacob Jones",
     state: "Popular",
     viewStatus: "Baixo",
@@ -805,7 +842,7 @@ export const coursesData = [
     duration: 1020,
     level: "Iniciante",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jane Cooper",
     originalPrice: 209,
     discountedPrice: 99,
@@ -827,7 +864,7 @@ export const coursesData = [
     duration: 1020,
     level: "Intermediário",
     authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Português",
+    language: "Português", // corrigido
     authorName: "Jenny Wilson",
     originalPrice: 299,
     discountedPrice: 149,
@@ -859,7 +896,7 @@ export const resentCourses = [
     id: 1,
     imageSrc: "/assets/img/dashboard/recent-courses/1.png",
     title: "Curso Completo de Python: Do Zero ao Herói em Python",
-    author: "Ali Tufan",
+    author: "Sarah Johnson",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,
@@ -868,7 +905,7 @@ export const resentCourses = [
     id: 2,
     imageSrc: "/assets/img/dashboard/recent-courses/3.png",
     title: "O Curso Definitivo de Desenho: Do Iniciante ao Avançado",
-    author: "Ali Tufan",
+    author: "Sarah Johnson",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,
@@ -877,7 +914,7 @@ export const resentCourses = [
     id: 3,
     imageSrc: "/assets/img/dashboard/recent-courses/3.png",
     title: "Marketing no Instagram 2021: Guia Completo para Crescimento no Instagram",
-    author: "Ali Tufan",
+    author: "Sarah Johnson",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,
@@ -948,10 +985,10 @@ export const categoryDuration = [
 ];
 
 export const duration = [
-  { id: 1, title: "12 meses", range: [1020] },
-  { id: 2, title: "18 meses", range: [410] },
-  
-  
+  { id: 1, title: "Menos de 4 horas", range: [0, 239] },
+  { id: 2, title: "4 - 7 horas", range: [240, 419] },
+  { id: 3, title: "7 - 18 horas", range: [420, 1079] },
+  { id: 4, title: "20 + Horas", range: [1080, 5000] },
 ];
 
 export const sortingOptions = [

@@ -749,7 +749,7 @@ export const marketingCoordinator = {
 };
 
 export const featuredTracher = {
-  name: "Ali Tufan",
+  name: "Sarah Johnson",
   desc: "Ensinar na plataforma de Educação tem sido uma experiência incrível",
   title: "Designer, Apple Inc",
   imgSrc: "/assets/img/home-7/courses/1.png",

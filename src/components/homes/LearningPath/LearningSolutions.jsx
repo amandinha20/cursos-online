@@ -101,9 +101,9 @@ export default function LearningSolutions() {
                 <img src="/assets/img/masthead/4.png" alt="icon" />
                 <div className="ml-20">
                   <div className="text-dark-1 text-16 fw-500 lh-1">
-                    Ali Tufan
+                    Sarah Johnson
                   </div>
-                  <div className="mt-3">UX/UI Designer</div>
+                  <div className="mt-3">Psicóloga</div>
                   <div className="d-flex x-gap-5 mt-3">
                     <div>
                       <div className="icon-star text-yellow-1 text-11"></div>

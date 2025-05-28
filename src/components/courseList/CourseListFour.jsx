@@ -181,12 +181,12 @@ export default function CourseListFour() {
             <div className="row">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Cursos de Interface de Usuário</h1>
+                  <h1 className="page-header__title">Todos os Cursos Disponíveis</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    Escreva uma descrição introdutória da categoria.
+                    Veja nossa seleção completa de cursos e escolha a melhor opção para aprimorar seus conhecimentos e avançar na sua carreira.
                   </p>
                 </div>
               </div>
@@ -418,30 +418,7 @@ export default function CourseListFour() {
                   </div>
                 </div>
 
-                <div className="col-auto">
-                  <div
-                    id="dd55button"
-                    className="dropdown js-dropdown js-price-active"
-                  >
-                    <div
-                      className="dropdown__button d-flex items-center text-14 rounded-8 px-20 py-10 text-14 lh-12"
-                      onClick={() => {
-                        document
-                          .getElementById("dd55button")
-                          .classList.toggle("-is-dd-active");
-                        document
-                          .getElementById("dd55content")
-                          .classList.toggle("-is-el-visible");
-                      }}
-                      data-el-toggle=".js-price-toggle"
-                      data-el-toggle-active=".js-price-active"
-                    >
-                      <span className="js-dropdown-title">
-                      </span>
-                      <i className="icon text-9 ml-40 icon-chevron-down"></i>
-                    </div>
-                  </div>
-                </div>
+
 
                 <div className="col-auto">
                   <div
@@ -450,7 +427,7 @@ export default function CourseListFour() {
                   >
                     <div
                       className="dropdown__button d-flex items-center text-14 rounded-8 px-20 py-10 text-14 lh-12"
-                      
+
                       data-el-toggle=".js-level-toggle"
                       data-el-toggle-active=".js-level-active"
                     >
@@ -506,7 +483,7 @@ export default function CourseListFour() {
                     id="dd57button"
                     className="dropdown js-dropdown js-langunage-active"
                   >
-                    
+
 
                     <div
                       id="dd57content"
