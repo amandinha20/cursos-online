@@ -3,9 +3,7 @@ import {
   coursesData,
   duration,
   instractorNames,
-  languages,
   levels,
-  prices,
   rating,
   sortingOptions,
 } from "@/data/courses";
@@ -111,14 +109,6 @@ export default function CourseListFour() {
     } else if (currentSortingOption == "Avaliação (dsc)") {
       setSortedFilteredData(
         [...filteredData].sort((a, b) => b.rating - a.rating),
-      );
-    } else if (currentSortingOption == "Preço (asc)") {
-      setSortedFilteredData(
-        [...filteredData].sort((a, b) => a.discountedPrice - b.discountedPrice),
-      );
-    } else if (currentSortingOption == "Preço (dsc)") {
-      setSortedFilteredData(
-        [...filteredData].sort((a, b) => b.discountedPrice - a.discountedPrice),
       );
     } else if (currentSortingOption == "Duração (asc)") {
       setSortedFilteredData(
@@ -263,9 +253,8 @@ export default function CourseListFour() {
                           }}
                         >
                           <span
-                            className={`d-block js-dropdown-link cursor ${
-                              filterCategories.length == 0 ? "activeMenu" : ""
-                            } `}
+                            className={`d-block js-dropdown-link cursor ${filterCategories.length == 0 ? "activeMenu" : ""
+                              } `}
                           >
                             Todos
                           </span>
@@ -276,11 +265,10 @@ export default function CourseListFour() {
                             onClick={() => handleFilterCategories(elm.title)}
                           >
                             <span
-                              className={`d-block js-dropdown-link cursor ${
-                                filterCategories[0] == elm.title
-                                  ? "activeMenu"
-                                  : ""
-                              } `}
+                              className={`d-block js-dropdown-link cursor ${filterCategories[0] == elm.title
+                                ? "activeMenu"
+                                : ""
+                                } `}
                             >
                               {elm.title}
                             </span>
@@ -334,9 +322,8 @@ export default function CourseListFour() {
                           }}
                         >
                           <span
-                            className={`d-block js-dropdown-link cursor ${
-                              filterRatingRange.length == 0 ? "activeMenu" : ""
-                            } `}
+                            className={`d-block js-dropdown-link cursor ${filterRatingRange.length == 0 ? "activeMenu" : ""
+                              } `}
                           >
                             Todos
                           </span>
@@ -347,12 +334,11 @@ export default function CourseListFour() {
                             onClick={() => handleFilterRatingRange(elm.range)}
                           >
                             <span
-                              className={`d-block js-dropdown-link cursor ${
-                                filterRatingRange.toString() ==
+                              className={`d-block js-dropdown-link cursor ${filterRatingRange.toString() ==
                                 elm.range.toString()
-                                  ? "activeMenu"
-                                  : ""
-                              } `}
+                                ? "activeMenu"
+                                : ""
+                                } `}
                             >
                               {elm.text}
                             </span>
@@ -406,9 +392,8 @@ export default function CourseListFour() {
                           }}
                         >
                           <span
-                            className={`d-block js-dropdown-link cursor ${
-                              filterInstractors.length == 0 ? "activeMenu" : ""
-                            } `}
+                            className={`d-block js-dropdown-link cursor ${filterInstractors.length == 0 ? "activeMenu" : ""
+                              } `}
                           >
                             Todos
                           </span>
@@ -419,11 +404,10 @@ export default function CourseListFour() {
                             onClick={() => handleFilterInstractors(elm.title)}
                           >
                             <span
-                              className={`d-block js-dropdown-link cursor ${
-                                filterInstractors[0] == elm.title
-                                  ? "activeMenu"
-                                  : ""
-                              } `}
+                              className={`d-block js-dropdown-link cursor ${filterInstractors[0] == elm.title
+                                ? "activeMenu"
+                                : ""
+                                } `}
                             >
                               {elm.title}
                             </span>
@@ -453,31 +437,8 @@ export default function CourseListFour() {
                       data-el-toggle-active=".js-price-active"
                     >
                       <span className="js-dropdown-title">
-                        {filterPrice != "Todos" ? filterPrice : "Preço"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
-                    </div>
-
-                    <div
-                      id="dd55content"
-                      className="toggle-element -dropdown -dark-bg-dark-2 -dark-border-white-10 js-click-dropdown js-price-toggle"
-                    >
-                      <div className="text-14 y-gap-15 js-dropdown-list">
-                        {prices.map((elm, i) => (
-                          <div
-                            key={i}
-                            onClick={() => handleFilterPrice(elm.title)}
-                          >
-                            <span
-                              className={`d-block js-dropdown-link cursor ${
-                                filterPrice == elm.title ? "activeMenu" : ""
-                              } `}
-                            >
-                              {elm.title}
-                            </span>
-                          </div>
-                        ))}
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -489,14 +450,7 @@ export default function CourseListFour() {
                   >
                     <div
                       className="dropdown__button d-flex items-center text-14 rounded-8 px-20 py-10 text-14 lh-12"
-                      onClick={() => {
-                        document
-                          .getElementById("dd56button")
-                          .classList.toggle("-is-dd-active");
-                        document
-                          .getElementById("dd56content")
-                          .classList.toggle("-is-el-visible");
-                      }}
+                      
                       data-el-toggle=".js-level-toggle"
                       data-el-toggle-active=".js-level-active"
                     >
@@ -523,9 +477,8 @@ export default function CourseListFour() {
                           }}
                         >
                           <span
-                            className={`d-block js-dropdown-link cursor ${
-                              filterLevels.length == 0 ? "activeMenu" : ""
-                            } `}
+                            className={`d-block js-dropdown-link cursor ${filterLevels.length == 0 ? "activeMenu" : ""
+                              } `}
                           >
                             Todos
                           </span>
@@ -536,9 +489,8 @@ export default function CourseListFour() {
                             onClick={() => handleFilterLevels(elm.title)}
                           >
                             <span
-                              className={`d-block js-dropdown-link cursor ${
-                                filterLevels[0] == elm.title ? "activeMenu" : ""
-                              } `}
+                              className={`d-block js-dropdown-link cursor ${filterLevels[0] == elm.title ? "activeMenu" : ""
+                                } `}
                             >
                               {elm.title}
                             </span>
@@ -554,26 +506,7 @@ export default function CourseListFour() {
                     id="dd57button"
                     className="dropdown js-dropdown js-langunage-active"
                   >
-                    <div
-                      className="dropdown__button d-flex items-center text-14 rounded-8 px-20 py-10 text-14 lh-12"
-                      onClick={() => {
-                        document
-                          .getElementById("dd57button")
-                          .classList.toggle("-is-dd-active");
-                        document
-                          .getElementById("dd57content")
-                          .classList.toggle("-is-el-visible");
-                      }}
-                      data-el-toggle=".js-langunage-toggle"
-                      data-el-toggle-active=".js-langunage-active"
-                    >
-                      <span className="js-dropdown-title">
-                        {filterlanguange.length
-                          ? filterlanguange[0]
-                          : "Idioma"}
-                      </span>
-                      <i className="icon text-9 ml-40 icon-chevron-down"></i>
-                    </div>
+                    
 
                     <div
                       id="dd57content"
@@ -592,29 +525,13 @@ export default function CourseListFour() {
                           }}
                         >
                           <span
-                            className={`d-block js-dropdown-link cursor ${
-                              filterlanguange.length == 0 ? "activeMenu" : ""
-                            } `}
+                            className={`d-block js-dropdown-link cursor ${filterlanguange.length == 0 ? "activeMenu" : ""
+                              } `}
                           >
                             Todos
                           </span>
                         </div>
-                        {languages.map((elm, i) => (
-                          <div
-                            key={i}
-                            onClick={() => handleFilterlanguange(elm.title)}
-                          >
-                            <span
-                              className={`d-block js-dropdown-link cursor ${
-                                filterlanguange[0] == elm.title
-                                  ? "activeMenu"
-                                  : ""
-                              } `}
-                            >
-                              {elm.title}
-                            </span>
-                          </div>
-                        ))}
+
                       </div>
                     </div>
                   </div>
@@ -641,8 +558,8 @@ export default function CourseListFour() {
                       <span className="js-dropdown-title">
                         {filterDuration.length
                           ? `${Math.round(
-                              filterDuration[0] / 60,
-                            )}h a ${Math.round(filterDuration[1] / 60)}h`
+                            filterDuration[0] / 60,
+                          )}h a ${Math.round(filterDuration[1] / 60)}h`
                           : "Duração"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
@@ -665,9 +582,8 @@ export default function CourseListFour() {
                           }}
                         >
                           <span
-                            className={`d-block js-dropdown-link cursor ${
-                              filterDuration.length == 0 ? "activeMenu" : ""
-                            } `}
+                            className={`d-block js-dropdown-link cursor ${filterDuration.length == 0 ? "activeMenu" : ""
+                              } `}
                           >
                             Todos
                           </span>
@@ -678,12 +594,11 @@ export default function CourseListFour() {
                             onClick={() => handleFilterDuration(elm.range)}
                           >
                             <span
-                              className={`d-block js-dropdown-link cursor ${
-                                filterDuration.toString() ==
+                              className={`d-block js-dropdown-link cursor ${filterDuration.toString() ==
                                 elm.range.toString()
-                                  ? "activeMenu"
-                                  : ""
-                              } `}
+                                ? "activeMenu"
+                                : ""
+                                } `}
                             >
                               {elm.title}
                             </span>
