@@ -74,7 +74,7 @@ export default function CourseListTwo() {
     }
     if (filterlanguange.length > 0) {
       const filtered = refItems.filter((elm) =>
-        filterlanguange.includes(elm.languange),
+        filterlanguange.includes(elm.language),
       );
       filteredArrays = [...filteredArrays, filtered];
     }
@@ -209,9 +209,8 @@ export default function CourseListTwo() {
             <div className="col-xl-9 col-lg-8">
               <div className="accordion js-accordion">
                 <div
-                  className={`accordion__item ${
-                    filterOpen ? "is-active" : ""
-                  } `}
+                  className={`accordion__item ${filterOpen ? "is-active" : ""
+                    } `}
                 >
                   <div className="row y-gap-20 items-center justify-between pb-30">
                     <div className="col-auto">
@@ -276,11 +275,10 @@ export default function CourseListTwo() {
                                       }}
                                     >
                                       <span
-                                        className={`d-block js-dropdown-link cursor ${
-                                          currentSortingOption == elm
+                                        className={`d-block js-dropdown-link cursor ${currentSortingOption == elm
                                             ? "activeMenu"
                                             : ""
-                                        } `}
+                                          } `}
                                       >
                                         {elm}
                                       </span>
@@ -433,7 +431,7 @@ export default function CourseListTwo() {
                                         readOnly
                                         checked={
                                           filterRatingRange.join(" ").trim() ==
-                                          item.range.join(" ").trim()
+                                            item.range.join(" ").trim()
                                             ? "checked"
                                             : ""
                                         }
@@ -711,7 +709,7 @@ export default function CourseListTwo() {
                                     (
                                     {
                                       coursesData.filter(
-                                        (itm) => itm.languange == item.title,
+                                        (itm) => itm.language == item.title,
                                       ).length
                                     }
                                     )
@@ -769,7 +767,7 @@ export default function CourseListTwo() {
                                       readOnly
                                       checked={
                                         filterDuration.toString() ==
-                                        item.range.toString()
+                                          item.range.toString()
                                           ? true
                                           : false
                                       }
@@ -947,9 +945,8 @@ export default function CourseListTwo() {
                   <div className="sidebar__item">
                     <div className="accordion js-accordion">
                       <div
-                        className={`accordion__item js-accordion-item-active ${
-                          categoryOpen ? "is-active" : ""
-                        } `}
+                        className={`accordion__item js-accordion-item-active ${categoryOpen ? "is-active" : ""
+                          } `}
                       >
                         <div
                           className="accordion__button items-center"
@@ -1047,9 +1044,8 @@ export default function CourseListTwo() {
                   <div className="sidebar__item">
                     <div className="accordion js-accordion">
                       <div
-                        className={`accordion__item js-accordion-item-active ${
-                          ratingOpen ? "is-active" : ""
-                        } `}
+                        className={`accordion__item js-accordion-item-active ${ratingOpen ? "is-active" : ""
+                          } `}
                       >
                         <div
                           className="accordion__button items-center"
@@ -1112,7 +1108,7 @@ export default function CourseListTwo() {
                                         readOnly
                                         checked={
                                           filterRatingRange.join(" ").trim() ==
-                                          elm.range.join(" ").trim()
+                                            elm.range.join(" ").trim()
                                             ? "checked"
                                             : ""
                                         }
@@ -1151,9 +1147,8 @@ export default function CourseListTwo() {
                   <div className="sidebar__item">
                     <div className="accordion js-accordion">
                       <div
-                        className={`accordion__item js-accordion-item-active ${
-                          instractorOpen ? "is-active" : ""
-                        } `}
+                        className={`accordion__item js-accordion-item-active ${instractorOpen ? "is-active" : ""
+                          } `}
                       >
                         <div
                           className="accordion__button items-center"
@@ -1250,9 +1245,8 @@ export default function CourseListTwo() {
                   <div className="sidebar__item">
                     <div className="accordion js-accordion">
                       <div
-                        className={`accordion__item js-accordion-item-active ${
-                          priceOpen ? "is-active" : ""
-                        } `}
+                        className={`accordion__item js-accordion-item-active ${priceOpen ? "is-active" : ""
+                          } `}
                       >
                         <div
                           className="accordion__button items-center"
@@ -1319,9 +1313,8 @@ export default function CourseListTwo() {
                   <div className="sidebar__item">
                     <div className="accordion js-accordion">
                       <div
-                        className={`accordion__item js-accordion-item-active ${
-                          levelOpen ? "is-active" : ""
-                        }  `}
+                        className={`accordion__item js-accordion-item-active ${levelOpen ? "is-active" : ""
+                          }  `}
                       >
                         <div
                           className="accordion__button items-center"
@@ -1407,9 +1400,8 @@ export default function CourseListTwo() {
                   <div className="sidebar__item">
                     <div className="accordion js-accordion">
                       <div
-                        className={`accordion__item js-accordion-item-active ${
-                          openLanguage ? "is-active" : ""
-                        } `}
+                        className={`accordion__item js-accordion-item-active ${openLanguage ? "is-active" : ""
+                          } `}
                       >
                         <div
                           className="accordion__button items-center"
@@ -1479,7 +1471,7 @@ export default function CourseListTwo() {
                                     (
                                     {
                                       coursesData.filter(
-                                        (itm) => itm.languange == elm.title,
+                                        (itm) => itm.language == elm.title,
                                       ).length
                                     }
                                     )
@@ -1504,9 +1496,8 @@ export default function CourseListTwo() {
                   <div className="sidebar__item">
                     <div className="accordion js-accordion">
                       <div
-                        className={`accordion__item js-accordion-item-active ${
-                          durationOpen ? "is-active" : ""
-                        } `}
+                        className={`accordion__item js-accordion-item-active ${durationOpen ? "is-active" : ""
+                          } `}
                       >
                         <div
                           className="accordion__button items-center"
@@ -1561,7 +1552,7 @@ export default function CourseListTwo() {
                                       readOnly
                                       checked={
                                         filterDuration.toString() ==
-                                        elm.range.toString()
+                                          elm.range.toString()
                                           ? true
                                           : false
                                       }
