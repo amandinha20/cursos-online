@@ -22,7 +22,7 @@ export const coursesData = [
   },
   {
     id: 2,
-    imageSrc: "/assets/img/coursesCards/9.png",
+    imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Psicanálise com Crianças e Adolescentes: Teoria e Clínica",
     rating: 4.7,
@@ -46,7 +46,7 @@ export const coursesData = [
   },
   {
     id: 3,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Avaliação Psicológica",
     rating: 4.5,
@@ -67,7 +67,7 @@ export const coursesData = [
   },
   {
     id: 4,
-    imageSrc: "/assets/img/coursesCards/3.png",
+    imageSrc: "/assets/img/coursesCards/1.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "MBA em Contabilidade Tributária e Inteligência Fiscal",
     rating: 4.2,
@@ -131,7 +131,7 @@ export const coursesData = [
   },
   {
     id: 7,
-    imageSrc: "/assets/img/coursesCards/7.png",
+    imageSrc: "/assets/img/coursesCards/6.png",
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
@@ -175,7 +175,7 @@ export const coursesData = [
   },
   {
     id: 9,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/5.png",
     imageAlt: "image",
     rating: 3.9,
     ratingCount: 1991,
@@ -197,7 +197,7 @@ export const coursesData = [
   },
   {
     id: 10,
-    imageSrc: "/assets/img/coursesCards/5.png",
+    imageSrc: "/assets/img/coursesCards/6.png",
     imageAlt: "image",
     rating: 4.2,
     ratingCount: 1991,
@@ -224,7 +224,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 5,
     ratingCount: 1991,
-    title: "MBA em Inteligêcia e Estratégias em Marketing",
+    title: "MBA em Inteligência e Estratégia em Marketing",
     lessonCount: 6,
     duration: 120,
     level: "Intermediário",
@@ -285,7 +285,7 @@ export const coursesData = [
   },
   {
     id: 14,
-    imageSrc: "/assets/img/coursesCards/8.png",
+    imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Psicanálise e Clínica Contemporânea: Sujeito, Sofrimento e Intervenções",
     rating: 4.7,
@@ -309,7 +309,7 @@ export const coursesData = [
   },
   {
     id: 15,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Pós-graduação em Gestalt-Terapia",
     rating: 4.5,
@@ -330,7 +330,7 @@ export const coursesData = [
   },
   {
     id: 16,
-    imageSrc: "/assets/img/coursesCards/2.png",
+    imageSrc: "/assets/img/coursesCards/1.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "LLM em Direito Tributário e Empresarial",
     rating: 4.2,
@@ -372,7 +372,7 @@ export const coursesData = [
   },
   {
     id: 18,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    imageSrc: "/assets/img/coursesCards/2.png",
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
@@ -394,7 +394,7 @@ export const coursesData = [
   },
   {
     id: 19,
-    imageSrc: "/assets/img/coursesCards/2.png",
+    imageSrc: "/assets/img/coursesCards/6.png",
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
@@ -438,7 +438,7 @@ export const coursesData = [
   },
   {
     id: 21,
-    imageSrc: "/assets/img/coursesCards/2.png",
+    imageSrc: "/assets/img/coursesCards/5.png",
     imageAlt: "image",
     rating: 3.9,
     ratingCount: 1991,
@@ -460,7 +460,7 @@ export const coursesData = [
   },
   {
     id: 22,
-    imageSrc: "/assets/img/coursesCards/4.png",
+    imageSrc: "/assets/img/coursesCards/6.png",
     imageAlt: "image",
     rating: 4.2,
     ratingCount: 1991,
@@ -528,7 +528,7 @@ export const coursesData = [
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
   {
-    id: 25,
+    id: 24,
     imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Desenvolvimento Web Front-End: Fundamentos de HTML, CSS e JavaScript",
@@ -547,12 +547,14 @@ export const coursesData = [
     viewStatus: "Bom",
     difficulty: "Fácil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
+=======
     desc: "Curso introdutório sobre técnicas de comunicação eficaz, expressão verbal e não verbal, e como se comunicar com clareza e confiança em diferentes contextos..",
+>>>>>>> 2527e076831b4256829a557ec128fb7c172cf085
   },
   
   {
-    id: 26,
-    imageSrc: "/assets/img/coursesCards/10.png",
+    id: 25,
+    imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Neuropsicologia",
     rating: 4.7,
@@ -575,8 +577,8 @@ export const coursesData = [
     desc: "Curso introdutório sobre os principais conceitos da Psicologia, abordando o comportamento humano, emoções, mente e as bases do desenvolvimento psicológico.",
   },
   {
-    id: 27,
-    imageSrc: "/assets/img/coursesCards/6.png",
+    id: 26,
+    imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Gestão das pessoas idosas com foco na longevidade",
     rating: 4.5,
@@ -596,8 +598,8 @@ export const coursesData = [
     desc: "Curso introdutório sobre os principais conceitos da Psicologia, abordando o comportamento humano, emoções, mente e as bases do desenvolvimento psicológico.",
   },
   {
-    id: 28,
-    imageSrc: "/assets/img/coursesCards/2.png",
+    id: 27,
+    imageSrc: "/assets/img/coursesCards/1.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "MBA em Compliance, Processos e Legislação Trabalhista e Previdenciária",
     rating: 4.2,
@@ -617,7 +619,7 @@ export const coursesData = [
     desc: "Curso introdutório sobre os princípios básicos da Contabilidade, incluindo registros financeiros, balanços patrimoniais e noções de controle e análise contábil.",
   },
   {
-    id: 29,
+    id: 28,
     imageSrc: "/assets/img/coursesCards/4.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Farmácia Oncológica e Hospitalar",
@@ -638,7 +640,7 @@ export const coursesData = [
     desc: "Curso introdutório sobre os principais fundamentos da área da saúde, abordando noções básicas de anatomia, primeiros socorros e cuidados com o bem-estar físico e mental.",
   },
   {
-    id: 30,
+    id: 29,
     imageSrc: "/assets/img/coursesCards/2.png",
     imageAlt: "image",
     rating: 4.6,
@@ -660,8 +662,8 @@ export const coursesData = [
     desc: "Curso introdutório sobre os fundamentos da Engenharia e da Arquitetura, com foco em projetos estruturais, design, materiais de construção e noções básicas de desenho técnico.",
   },
   {
-    id: 31,
-    imageSrc: "/assets/img/coursesCards/7.png",
+    id: 30,
+    imageSrc: "/assets/img/coursesCards/6.png",
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
@@ -682,7 +684,7 @@ export const coursesData = [
     desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
   {
-    id: 32,
+    id: 31,
     imageSrc: "/assets/img/coursesCards/4.png",
     imageAlt: "image",
     rating: 4.8,
@@ -704,8 +706,8 @@ export const coursesData = [
     desc: "Curso introdutório sobre os principais fundamentos da área da saúde, abordando noções básicas de anatomia, primeiros socorros e cuidados com o bem-estar físico e mental.",
   },
   {
-    id: 33,
-    imageSrc: "/assets/img/coursesCards/10.png",
+    id: 32,
+    imageSrc: "/assets/img/coursesCards/5.png",
     imageAlt: "image",
     rating: 3.9,
     ratingCount: 1991,
@@ -726,8 +728,8 @@ export const coursesData = [
     desc: "Curso introdutório sobre os principais conceitos da Psicologia, abordando o comportamento humano, emoções, mente e as bases do desenvolvimento psicológico.",
   },
   {
-    id: 34,
-    imageSrc: "/assets/img/coursesCards/12.png",
+    id: 33,
+    imageSrc: "/assets/img/coursesCards/6.png",
     imageAlt: "image",
     rating: 4.2,
     ratingCount: 1991,
@@ -748,7 +750,7 @@ export const coursesData = [
     desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
   {
-    id: 35,
+    id: 34,
     imageSrc: "/assets/img/coursesCards/3.png",
     imageAlt: "image",
     rating: 5,
@@ -769,6 +771,7 @@ export const coursesData = [
     difficulty: "Difícil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
+
   {
     id: 36,
     imageSrc: "/assets/img/coursesCards/3.png",
@@ -811,14 +814,13 @@ export const coursesData = [
     viewStatus: "Bom",
     difficulty: "Fácil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-    desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
   
   
   
   {
     id: 38,
-    imageSrc: "/assets/img/coursesCards/1.png",
+    imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Comportamento Alimentar e Psiconutrição",
     rating: 4.7,
@@ -841,8 +843,8 @@ export const coursesData = [
     desc: "Curso introdutório sobre os principais conceitos da Psicologia, abordando o comportamento humano, emoções, mente e as bases do desenvolvimento psicológico.",
   },
   {
-    id: 39,
-    imageSrc: "/assets/img/coursesCards/11.png",
+    id: 36,
+    imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "MBA em Desenvolvimento Humano, Psicologia Positiva e Bem-Estar nas Organizações",
     rating: 4.5,
@@ -862,8 +864,8 @@ export const coursesData = [
     desc: "Curso introdutório sobre os principais conceitos da Psicologia, abordando o comportamento humano, emoções, mente e as bases do desenvolvimento psicológico.",
   },
   {
-    id: 40,
-    imageSrc: "/assets/img/coursesCards/4.png",
+    id: 37,
+    imageSrc: "/assets/img/coursesCards/1.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "MBA em Controladoria, Auditoria e Perícia Contábil",
     rating: 4.2,
@@ -883,7 +885,7 @@ export const coursesData = [
     desc: "Curso introdutório sobre os princípios básicos da Contabilidade, incluindo registros financeiros, balanços patrimoniais e noções de controle e análise contábil.",
   },
   {
-    id: 41,
+    id: 38,
     imageSrc: "/assets/img/coursesCards/4.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
     title: "Master em Fisioterapia no Manejo da Dor",
@@ -927,7 +929,7 @@ export const coursesData = [
   },
   {
     id: 43,
-    imageSrc: "/assets/img/coursesCards/1.png",
+    imageSrc: "/assets/img/coursesCards/6.png",
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
