@@ -479,29 +479,6 @@ export const coursesData = [
     difficulty: "Médio",
     desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
-  {
-    id: 23,
-    imageSrc: "/assets/img/coursesCards/3.png",
-    imageAlt: "image",
-    rating: 5,
-    ratingCount: 1991,
-    title: "Aprendizado de Máquina em Python: Projetos Práticos",
-    lessonCount: 6,
-    duration: 120,
-    level: "Intermediário",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Italiano",
-    authorName: "Albert Flores",
-    originalPrice: 209,
-    discountedPrice: 119,
-    paid: true,
-    category: "Design",
-    state: "Popular",
-    viewStatus: "Médio",
-    difficulty: "Difícil",
-    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-    desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
-  },
   
   {
     id: 24,
@@ -525,31 +502,7 @@ export const coursesData = [
     difficulty: "Difícil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
-  {
-    id: 24,
-    imageSrc: "/assets/img/coursesCards/3.png",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    title: "Desenvolvimento Web Front-End: Fundamentos de HTML, CSS e JavaScript",
-    rating: 4.3,
-    ratingCount: 1991,
-    lessonCount: 6,
-    duration: 1320,
-    level: "Intermediário",
-    originalPrice: 199,
-    discountedPrice: 79,
-    paid: true,
-    category: "Design",
-    state: "Popular",
-    languange: "Inglês",
-    authorName: "Robert Fox",
-    viewStatus: "Bom",
-    difficulty: "Fácil",
-    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-=======
-    desc: "Curso introdutório sobre técnicas de comunicação eficaz, expressão verbal e não verbal, e como se comunicar com clareza e confiança em diferentes contextos..",
->>>>>>> 2527e076831b4256829a557ec128fb7c172cf085
-  },
-  
+   
   {
     id: 25,
     imageSrc: "/assets/img/coursesCards/5.png",
@@ -747,51 +700,9 @@ export const coursesData = [
     difficulty: "Médio",
     desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
-  {
-    id: 34,
-    imageSrc: "/assets/img/coursesCards/3.png",
-    imageAlt: "image",
-    rating: 5,
-    ratingCount: 1991,
-    title: "Estratégia de Marketing de Conteúdo: Engajando Seu Público-Alvo",
-    lessonCount: 6,
-    duration: 120,
-    level: "Intermediário",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Italiano",
-    authorName: "Albert Flores",
-    originalPrice: 209,
-    discountedPrice: 119,
-    paid: true,
-    category: "Design",
-    state: "Popular",
-    viewStatus: "Médio",
-    difficulty: "Difícil",
-    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-  },
+ 
 
-  {
-    id: 36,
-    imageSrc: "/assets/img/coursesCards/3.png",
-    imageAlt: "image",
-    rating: 5,
-    ratingCount: 1991,
-    title: "Fotografia de Vida Selvagem: Capturando Animais em Seu Habitat Natural",
-    lessonCount: 6,
-    duration: 120,
-    level: "Especialista",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Francês",
-    authorName: "Albert Flores",
-    originalPrice: 0,
-    discountedPrice: 0,
-    paid: false,
-    category: "Design",
-    state: "Popular",
-    viewStatus: "Médio",
-    difficulty: "Difícil",
-    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-  },
+  
   {
     id: 37,
     imageSrc: "/assets/img/coursesCards/3.png",
@@ -1022,23 +933,14 @@ export const instractorNames = [
   { id: 5, title: "Albert Flores" },
 ];
 
-export const languages = [
-  { id: 1, title: "Português" },
-  { id: 2, title: "Português" },
-  { id: 3, title: "Português" },
-  { id: 4, title: "Português" },
-];
+
 
 export const levels = [
   { id: 2, title: "Iniciante" },
   { id: 3, title: "Intermediário" },
   { id: 4, title: "Especialista" },
 ];
-export const prices = [
-  { id: 1, title: "Pago" },
-  { id: 2, title: "Pago" },
-  { id: 3, title: "Pago" },
-];
+
 
 export const rating = [
   { id: 1, star: 5, text: "4.5 & acima", range: [4.5, 5] },
@@ -1057,8 +959,8 @@ export const categories = [
 ];
 
 export const duration = [
-  { id: 1, title: "Menos de 4 horas", range: [0, 239] },
-  { id: 2, title: "4 - 7 horas", range: [240, 419] },
+  { id: 1, title: "12 meses", range: [0, 239] },
+  { id: 2, title: "18 meses", range: [240, 419] },
   { id: 3, title: "7 - 18 horas", range: [420, 1079] },
   { id: 4, title: "20 + Horas", range: [1080, 5000] },
 ];
