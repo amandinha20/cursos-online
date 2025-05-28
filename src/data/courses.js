@@ -526,8 +526,6 @@ export const coursesData = [
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
   {
-<<<<<<< HEAD
-=======
     id: 24,
     imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
@@ -550,7 +548,6 @@ export const coursesData = [
   },
   
   {
->>>>>>> 1a4df4ad9fe62417c2d5b5d5a8f0f55e9d6fd6dd
     id: 25,
     imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
