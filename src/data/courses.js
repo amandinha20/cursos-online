@@ -202,6 +202,7 @@ export const coursesData = [
     rating: 4.2,
     ratingCount: 1991,
     title: "MBA em Licitações e Contratos: Governança e Gestão em Contratações e Aquisições Públicas",
+    title: "",
     lessonCount: 6,
     duration: 720,
     level: "Iniciante",
@@ -464,6 +465,7 @@ export const coursesData = [
     rating: 4.2,
     ratingCount: 1991,
     title: "Direito Civil e Direito do Consumidor",
+    title: "",
     lessonCount: 6,
     duration: 720,
     level: "Especialista",
@@ -500,9 +502,7 @@ export const coursesData = [
     viewStatus: "Médio",
     difficulty: "Difícil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-    desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
-  
   {
     id: 24,
     imageSrc: "/assets/img/coursesCards/3.png",
@@ -526,6 +526,8 @@ export const coursesData = [
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
   {
+<<<<<<< HEAD
+=======
     id: 24,
     imageSrc: "/assets/img/coursesCards/3.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
@@ -544,13 +546,11 @@ export const coursesData = [
     authorName: "Robert Fox",
     viewStatus: "Bom",
     difficulty: "Fácil",
-    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-=======
     desc: "Curso introdutório sobre técnicas de comunicação eficaz, expressão verbal e não verbal, e como se comunicar com clareza e confiança em diferentes contextos..",
->>>>>>> 2527e076831b4256829a557ec128fb7c172cf085
   },
   
   {
+>>>>>>> 1a4df4ad9fe62417c2d5b5d5a8f0f55e9d6fd6dd
     id: 25,
     imageSrc: "/assets/img/coursesCards/5.png",
     authorImageSrc: "/assets/img/general/avatar-1.png",
@@ -769,7 +769,6 @@ export const coursesData = [
     difficulty: "Difícil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
-
   {
     id: 36,
     imageSrc: "/assets/img/coursesCards/3.png",
@@ -813,9 +812,6 @@ export const coursesData = [
     difficulty: "Fácil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
-  
-  
-  
   {
     id: 38,
     imageSrc: "/assets/img/coursesCards/5.png",
@@ -968,7 +964,7 @@ export const resentCourses = [
     id: 1,
     imageSrc: "/assets/img/dashboard/recent-courses/1.png",
     title: "Curso Completo de Python: Do Zero ao Herói em Python",
-    author: "Ali Tufan",
+    author: "Psi. Juliana Fernandes",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,
@@ -977,7 +973,7 @@ export const resentCourses = [
     id: 2,
     imageSrc: "/assets/img/dashboard/recent-courses/3.png",
     title: "O Curso Definitivo de Desenho: Do Iniciante ao Avançado",
-    author: "Ali Tufan",
+    author: "Psi. Juliana Fernandes",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,
@@ -986,7 +982,7 @@ export const resentCourses = [
     id: 3,
     imageSrc: "/assets/img/dashboard/recent-courses/3.png",
     title: "Marketing no Instagram 2021: Guia Completo para Crescimento no Instagram",
-    author: "Ali Tufan",
+    author: "Psi. Juliana Fernandes",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,

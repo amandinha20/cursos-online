@@ -179,7 +179,7 @@ export default function EventDetails({ id }) {
                         <div className="comments__body md:mt-15">
                           <div className="comments__header">
                             <h4 className="text-17 fw-500 lh-15">
-                              Ali Tufan
+                              Psi. Juliana Fernades
                               <span className="text-13 text-light-1 fw-400">
                                 3 Days ago
                               </span>
@@ -227,7 +227,7 @@ export default function EventDetails({ id }) {
                         <div className="comments__body md:mt-15">
                           <div className="comments__header">
                             <h4 className="text-17 fw-500 lh-15">
-                              Ali Tufan
+                              Psi. Juliana Fernades
                               <span className="text-13 text-light-1 fw-400">
                                 3 Days ago
                               </span>

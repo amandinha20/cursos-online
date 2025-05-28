@@ -1,8 +1,8 @@
 export const teamMembers = [
   {
     id: 1,
-    name: "Floyd Miles",
-    role: "Presidente de Vendas",
+    name: "Dr. Ricardo Almeida",
+    role: "Fisioterapeuta",
     image: "/assets/img/team/1.png",
     category: "Animação",
     rating: 4.5,
@@ -30,8 +30,8 @@ export const teamMembers = [
   },
   {
     id: 2,
-    name: "Cameron Williamson",
-    role: "Designer Web",
+    name: "Eng. Felipe Martins",
+    role: "Engenheira Civil",
     image: "/assets/img/team/2.png",
     category: "Design",
     rating: 3.5,
@@ -59,8 +59,8 @@ export const teamMembers = [
   },
   {
     id: 3,
-    name: "Brooklyn Simmons",
-    role: "Treinador de Cães",
+    name: "Dra. Camila Souza",
+    role: "Perita Forencese",
     image: "/assets/img/team/3.png",
     category: "Ilustração",
     rating: 5,
@@ -88,8 +88,8 @@ export const teamMembers = [
   },
   {
     id: 4,
-    name: "Wade Warren",
-    role: "Marketing Coordinator",
+    name: "Psi. Juliana Fernandes",
+    role: "Psicoanalista",
     image: "/assets/img/team/4.png",
     category: "Ilustração",
     rating: 4,
@@ -117,8 +117,8 @@ export const teamMembers = [
   },
   {
     id: 5,
-    name: "Bessie Cooper",
-    role: "Marketing Coordinator",
+    name: "Ana Paula Ribeira",
+    role: "",
     image: "/assets/img/team/5.png",
     category: "Ilustração",
     rating: 4,
@@ -146,8 +146,8 @@ export const teamMembers = [
   },
   {
     id: 6,
-    name: "Albert Flores",
-    role: "Treinador de Cães",
+    name: "Marcela Tavares",
+    role: "Perita Floscense",
     image: "/assets/img/team/6.png",
     category: "Animação",
     rating: 4.5,
@@ -176,7 +176,7 @@ export const teamMembers = [
   {
     id: 7,
     name: "Cody Fisher",
-    role: "Designer Web",
+    role: "Engenheira Civil",
     image: "/assets/img/team/7.png",
     category: "Design",
     rating: 3.5,
@@ -205,7 +205,7 @@ export const teamMembers = [
   {
     id: 8,
     name: "Theresa Webb",
-    role: "Presidente de Vendas",
+    role: "Fisioterapeuta",
     image: "/assets/img/team/8.png",
     category: "Negócios",
     rating: 5,
@@ -234,8 +234,8 @@ export const teamMembers = [
 
   {
     id: 9,
-    name: "Floyd Miles",
-    role: "Presidente de Vendas",
+    name: "Dr. Ricardo Almeida",
+    role: "Fisioterapeuta",
     image: "/assets/img/team/1.png",
     category: "Ilustração",
     rating: 5,
@@ -263,8 +263,8 @@ export const teamMembers = [
   },
   {
     id: 10,
-    name: "Cameron Williamson",
-    role: "Designer Web",
+    name: "Eng. Felipe Martins",
+    role: "Engenheira Civil",
     image: "/assets/img/team/2.png",
     category: "Ilustração",
     rating: 3,
@@ -292,8 +292,8 @@ export const teamMembers = [
   },
   {
     id: 11,
-    name: "Brooklyn Simmons",
-    role: "Treinador de Cães",
+    name: "Dra. Camila Souza",
+    role: "Perita Floscense",
     image: "/assets/img/team/3.png",
     category: "Animação",
     rating: 3.5,
@@ -321,8 +321,8 @@ export const teamMembers = [
   },
   {
     id: 12,
-    name: "Wade Warren",
-    role: "Marketing Coordinator",
+    name: "Psi. Juliana Fernandes",
+    role: "Psicoanalista",
     image: "/assets/img/team/4.png",
     category: "Design",
     rating: 4.5,
@@ -350,8 +350,8 @@ export const teamMembers = [
   },
   {
     id: 13,
-    name: "Bessie Cooper",
-    role: "Marketing Coordinator",
+    name: "Ana Paula Ribeira",
+    role: "",
     image: "/assets/img/team/5.png",
     category: "Negócios",
     rating: 5,
@@ -379,8 +379,8 @@ export const teamMembers = [
   },
   {
     id: 14,
-    name: "Albert Flores",
-    role: "Treinador de Cães",
+    name: "Marcela Tavares",
+    role: "Perita Floscense",
     image: "/assets/img/team/6.png",
     category: "Ilustração",
     rating: 4.5,
@@ -409,7 +409,7 @@ export const teamMembers = [
   {
     id: 15,
     name: "Cody Fisher",
-    role: "Designer Web",
+    role: "Engenheira Civil",
     image: "/assets/img/team/7.png",
     category: "Ilustração",
     rating: 3.5,
@@ -438,7 +438,7 @@ export const teamMembers = [
   {
     id: 16,
     name: "Theresa Webb",
-    role: "Presidente de Vendas",
+    role: "Fisioterapeuta",
     image: "/assets/img/team/8.png",
     category: "Animação",
     rating: 3,
@@ -467,8 +467,8 @@ export const teamMembers = [
 
   {
     id: 17,
-    name: "Floyd Miles",
-    role: "Presidente de Vendas",
+    name: "Dr. Ricardo Almeida",
+    role: "Fisioterapeuta",
     image: "/assets/img/team/1.png",
     category: "Design",
     rating: 4.5,
@@ -496,8 +496,8 @@ export const teamMembers = [
   },
   {
     id: 18,
-    name: "Cameron Williamson",
-    role: "Designer Web",
+    name: "Eng. Felipe Martins",
+    role: "Engenheira Civil",
     image: "/assets/img/team/2.png",
     category: "Animação",
     rating: 4,
@@ -525,8 +525,8 @@ export const teamMembers = [
   },
   {
     id: 19,
-    name: "Brooklyn Simmons",
-    role: "Treinador de Cães",
+    name: "Dra. Camila Souza",
+    role: "Perita Floscense",
     image: "/assets/img/team/3.png",
     category: "Ilustração",
     rating: 5,
@@ -554,8 +554,8 @@ export const teamMembers = [
   },
   {
     id: 20,
-    name: "Wade Warren",
-    role: "Marketing Coordinator",
+    name: "Psi. Juliana Fernandes",
+    role: "Psicoanalista",
     image: "/assets/img/team/4.png",
     category: "Ilustração",
     rating: 4.5,
@@ -583,8 +583,8 @@ export const teamMembers = [
   },
   {
     id: 21,
-    name: "Bessie Cooper",
-    role: "Marketing Coordinator",
+    name: "Ana Paula Ribeira",
+    role: "",
     image: "/assets/img/team/5.png",
     category: "Ilustração",
     rating: 3.5,
@@ -612,8 +612,8 @@ export const teamMembers = [
   },
   {
     id: 22,
-    name: "Albert Flores",
-    role: "Treinador de Cães",
+    name: "Marcela Tavares",
+    role: "Perita Floscense",
     image: "/assets/img/team/6.png",
     category: "Animação",
     rating: 3.5,
@@ -642,7 +642,7 @@ export const teamMembers = [
   {
     id: 23,
     name: "Cody Fisher",
-    role: "Designer Web",
+    role: "Engenheira Civil",
     image: "/assets/img/team/7.png",
     category: "Design",
     rating: 5,
@@ -671,7 +671,7 @@ export const teamMembers = [
   {
     id: 24,
     name: "Theresa Webb",
-    role: "Presidente de Vendas",
+    role: "Fisioterapeuta",
     image: "/assets/img/team/8.png",
     category: "Negócios",
     rating: 4,
@@ -740,7 +740,7 @@ export const teachers = [
 
 export const marketingCoordinator = {
   id: 45,
-  name: "Wade Warren",
+  name: "Psi. Juliana Fernandes",
   imgSrc: "/assets/img/home-6/trust/big.png",
   rating: "4.5",
   students: "565",
@@ -749,7 +749,7 @@ export const marketingCoordinator = {
 };
 
 export const featuredTracher = {
-  name: "Ali Tufan",
+  name: "Psi. Juliana Fernandes",
   desc: "Ensinar na plataforma de Educação tem sido uma experiência incrível",
   title: "Designer, Apple Inc",
   imgSrc: "/assets/img/home-7/courses/1.png",
@@ -763,7 +763,7 @@ export const instractorsEight = [
     rating: 4,
     reviews: 3545,
     name: "Jerome Bell",
-    role: "Marketing Coordinator",
+    role: "Psicoanalista",
     students: 692,
     courses: 15,
     socialProfile: [
@@ -791,8 +791,8 @@ export const instractorsEight = [
     category: "Ilustração",
     rating: 4.5,
     reviews: 3545,
-    name: "Bessie Cooper",
-    role: "Presidente de Vendas",
+    name: "Ana Paula Ribeira",
+    role: "F",
     students: 692,
     courses: 15,
     socialProfile: [
@@ -848,12 +848,12 @@ export const instractorsEight = [
 export const instractorsNine = [
   {
     id: 49,
-    name: "Floyd Miles",
+    name: "Dr. Ricardo Almeida",
     image: "/assets/img/streams/1.png",
 
     category: "Negócios",
     email: "miles@gmail.com",
-    role: "Marketing Coordinator",
+    role: "Psicoanalista",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -879,7 +879,7 @@ export const instractorsNine = [
     image: "/assets/img/streams/2.png",
     category: "Design",
     email: "jacob@gmail.com",
-    role: "Presidente de Vendas",
+    role: "Fisioterapeuta",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -933,7 +933,7 @@ export const instractorsNine = [
     image: "/assets/img/streams/4.png",
     category: "Negócios",
     email: "jane@gmail.com",
-    role: "Treinador de Cães",
+    role: "Perita Floscense",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -959,7 +959,7 @@ export const instractorsNine = [
     image: "/assets/img/streams/5.png",
     category: "Animação",
     email: "annette@gmail.com",
-    role: "Marketing Coordinator",
+    role: "Psicoanalista",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -986,7 +986,7 @@ export const instractorsNine = [
 
     category: "Animação",
     email: "robert@gmail.com",
-    role: "Marketing Coordinator",
+    role: "Psicoanalista",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -1011,8 +1011,8 @@ export const instractorsNine = [
 export const teamMembersFull = [
   {
     id: 55,
-    name: "Floyd Miles",
-    role: "Presidente de Vendas",
+    name: "Dr. Ricardo Almeida",
+    role: "Fisioterapeuta",
     imageSrc: "/assets/img/team/1.png",
     rating: "4.5",
     studentCount: 692,
@@ -1039,8 +1039,8 @@ export const teamMembersFull = [
   },
   {
     id: 56,
-    name: "Cameron Williamson",
-    role: "Designer Web",
+    name: "Eng. Felipe Martins",
+    role: "Engenheira Civil",
     imageSrc: "/assets/img/team/2.png",
     rating: "4.5",
     studentCount: 692,
@@ -1067,8 +1067,8 @@ export const teamMembersFull = [
   },
   {
     id: 57,
-    name: "Brooklyn Simmons",
-    role: "Treinador de Cães",
+    name: "Dra. Camila Souza",
+    role: "Perita Floscense",
     imageSrc: "/assets/img/team/3.png",
     rating: "4.5",
     studentCount: 692,
@@ -1095,8 +1095,8 @@ export const teamMembersFull = [
   },
   {
     id: 58,
-    name: "Wade Warren",
-    role: "Marketing Coordinator",
+    name: "Psi. Juliana Fernandes",
+    role: "Psicoanalista",
     imageSrc: "/assets/img/team/4.png",
     rating: "4.5",
     studentCount: 692,
@@ -1123,8 +1123,8 @@ export const teamMembersFull = [
   },
   {
     id: 59,
-    name: "Bessie Cooper",
-    role: "Marketing Coordinator",
+    name: "Ana Paula Ribeira",
+    role: "",
     imageSrc: "/assets/img/team/5.png",
     rating: "4.5",
     studentCount: 692,
@@ -1151,8 +1151,8 @@ export const teamMembersFull = [
   },
   {
     id: 60,
-    name: "Albert Flores",
-    role: "Treinador de Cães",
+    name: "Marcela Tavares",
+    role: "Perita Floscense",
     imageSrc: "/assets/img/team/6.png",
     rating: "4.5",
     studentCount: 692,
@@ -1180,7 +1180,7 @@ export const teamMembersFull = [
   {
     id: 61,
     name: "Cody Fisher",
-    role: "Designer Web",
+    role: "Engenheira Civil",
     imageSrc: "/assets/img/team/7.png",
     rating: "4.5",
     studentCount: 692,
@@ -1208,7 +1208,7 @@ export const teamMembersFull = [
   {
     id: 62,
     name: "Theresa Webb",
-    role: "Presidente de Vendas",
+    role: "Fisioterapeuta",
     imageSrc: "/assets/img/team/8.png",
     rating: "4.5",
     studentCount: 692,
