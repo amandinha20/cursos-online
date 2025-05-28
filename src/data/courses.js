@@ -502,9 +502,7 @@ export const coursesData = [
     viewStatus: "Médio",
     difficulty: "Difícil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-    desc: "Curso introdutório sobre os fundamentos do Direito e das Perícias Forenses, explorando conceitos jurídicos básicos, investigação criminal, e o papel do perito no processo judicial.",
   },
-  
   {
     id: 24,
     imageSrc: "/assets/img/coursesCards/3.png",
@@ -768,7 +766,6 @@ export const coursesData = [
     difficulty: "Difícil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
-
   {
     id: 36,
     imageSrc: "/assets/img/coursesCards/3.png",
@@ -812,9 +809,6 @@ export const coursesData = [
     difficulty: "Fácil",
     desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
   },
-  
-  
-  
   {
     id: 38,
     imageSrc: "/assets/img/coursesCards/5.png",

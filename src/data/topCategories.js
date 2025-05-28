@@ -2,19 +2,19 @@ export const topCategories = [
   {
     id: 1,
     iconSrc: "/assets/img/featureCards/1.svg",
-    title: "Design Criativo",
-    text: "573+ Cursos",
+    title: "Psicologia",
+    text: "283+ Cursos",
   },
   {
     id: 2,
     iconSrc: "/assets/img/featureCards/2.svg",
-    title: "Marketing de Vendas",
-    text: "565+ Cursos",
+    title: "Comunicação",
+    text: "345+ Cursos",
   },
   {
     id: 3,
     iconSrc: "/assets/img/featureCards/3.svg",
-    title: "Desenvolvimento de TI",
+    title: "Saúde",
     text: "126+ Cursos",
   },
   {
@@ -26,13 +26,13 @@ export const topCategories = [
   {
     id: 5,
     iconSrc: "/assets/img/featureCards/5.svg",
-    title: "Desenvolvimento Pessoal",
-    text: "908+ Cursos",
+    title: "Direito e perícias forenses",
+    text: "108+ Cursos",
   },
   {
     id: 6,
     iconSrc: "/assets/img/featureCards/6.svg",
-    title: "Contabilidade e Finanças",
+    title: "Contabilidade",
     text: "129+ Cursos",
   },
 ];
@@ -85,200 +85,6 @@ export const topCategoriesTwo = [
     imageSrc: "/assets/img/home-3/category/8.png",
     title: "TI e Software",
     text: "573+ Cursos",
-  },
-];
-
-export const topCatagoriesThree = [
-  {
-    id: 1,
-    imageSrc: "/assets/img/home-2/categories/1.png",
-    title: "Marketing Digital",
-    courses: "573+ Cursos",
-  },
-  {
-    id: 2,
-    imageSrc: "/assets/img/home-2/categories/2.png",
-    title: "Desenvolvimento Web",
-    courses: "473+ Cursos",
-  },
-  {
-    id: 3,
-    imageSrc: "/assets/img/home-2/categories/3.png",
-    title: "Design Gráfico",
-    courses: "583+ Cursos",
-  },
-  {
-    id: 4,
-    imageSrc: "/assets/img/home-2/categories/4.png",
-    title: "Ciências Sociais",
-    courses: "373+ Cursos",
-  },
-  {
-    id: 5,
-    imageSrc: "/assets/img/home-2/categories/5.png",
-    title: "Desenvolvimento Pessoal",
-    courses: "373+ Cursos",
-  },
-  {
-    id: 6,
-    imageSrc: "/assets/img/home-2/categories/6.png",
-    title: "Fotografia",
-    courses: "393+ Cursos",
-  },
-  {
-    id: 7,
-    imageSrc: "/assets/img/home-2/categories/7.png",
-    title: "Arte e Humanidades",
-    courses: "373+ Cursos",
-  },
-];
-
-export const topCatagoriesFour = [
-  {
-    id: 1,
-    title: "Marketing Digital",
-    iconClass: "icon icon-announcement text-35",
-    courses: "553+ Cursos",
-  },
-  {
-    id: 2,
-    title: "Desenvolvimento Web",
-    iconClass: "icon icon-web-programming text-35",
-    courses: "573+ Cursos",
-  },
-  {
-    id: 3,
-    title: "Design Gráfico",
-    iconClass: "icon icon-design text-35",
-    courses: "823+ Cursos",
-  },
-  {
-    id: 4,
-    title: "Ciências Sociais",
-    iconClass: "icon icon-social-media text-35",
-    courses: "573+ Cursos",
-  },
-  {
-    id: 5,
-    title: "Fotografia",
-    iconClass: "icon icon-photo-camera text-35",
-    courses: "563+ Cursos",
-  },
-  {
-    id: 6,
-    title: "Arte e Humanidades",
-    iconClass: "icon icon-digital-art text-35",
-    courses: "573+ Cursos",
-  },
-  {
-    id: 7,
-    title: "Desenvolvimento Pessoal",
-    iconClass: "icon icon-person text-35",
-    courses: "571+ Cursos",
-  },
-  {
-    id: 8,
-    title: "TI e Software",
-    iconClass: "icon icon-tech text-35",
-    courses: "593+ Cursos",
-  },
-];
-
-export const topCatagoriesFive = [
-  {
-    id: 1,
-    title: "Marketing Digital",
-    icon: "icon icon-creative-announcement",
-    delay: 1,
-    courses: "553+ Cursos",
-  },
-  {
-    id: 2,
-    title: "Desenvolvimento Web",
-    icon: "icon icon-creative-web",
-    delay: 2,
-    courses: "553+ Cursos",
-  },
-  {
-    id: 3,
-    title: "Design Gráfico",
-    icon: "icon icon-creative-design",
-    delay: 3,
-    courses: "553+ Cursos",
-  },
-  {
-    id: 4,
-    title: "Ciências Sociais",
-    icon: "icon icon-creative-photography",
-    delay: 4,
-    courses: "553+ Cursos",
-  },
-  {
-    id: 5,
-    title: "Fotografia",
-    icon: "icon icon-creative-social",
-    delay: 5,
-    courses: "553+ Cursos",
-  },
-  {
-    id: 6,
-    title: "Arte e Humanidades",
-    icon: "icon icon-creative-art",
-    delay: 6,
-    courses: "553+ Cursos",
-  },
-  {
-    id: 7,
-    title: "Desenvolvimento Pessoal",
-    icon: "icon icon-creative-personal",
-    delay: 7,
-    courses: "553+ Cursos",
-  },
-  {
-    id: 8,
-    title: "TI e Software",
-    icon: "icon icon-creative-software",
-    delay: 8,
-    courses: "553+ Cursos",
-  },
-];
-
-export const topCatagoriesSix = [
-  {
-    id: 1,
-    icon: "icon-architecture text-40",
-    title: "Design Criativo",
-    courses: 573,
-  },
-  {
-    id: 2,
-    icon: "icon-megaphone text-40",
-    title: "Marketing de Vendas",
-    courses: 565,
-  },
-  {
-    id: 3,
-    icon: "icon-save-money text-40",
-    title: "Desenvolvimento de TI",
-    courses: 126,
-  },
-  {
-    id: 4,
-    icon: "icon-software text-40",
-    title: "Engenharia e Arquitetura",
-    courses: 35,
-  },
-  {
-    id: 5,
-    icon: "icon-tools text-40",
-    title: "Desenvolvimento Pessoal",
-    courses: 908,
-  },
-  {
-    id: 6,
-    icon: "icon-person-2 text-40",
-    title: "Contabilidade e Finanças",
-    courses: 129,
   },
 ];
 

@@ -13,24 +13,12 @@ export const footerLinks = [
   {
     title: "CATEGORIAS",
     links: [
-      { href: "/courses/1", label: "Desenvolvimento" },
-      { href: "/courses-single-2/3", label: "Negócios" },
-      { href: "/courses-single-3/3", label: "Finanças e Contabilidade" },
-      { href: "/courses-single-4/3", label: "TI e Software" },
-      { href: "/courses-single-5/3", label: "Produtividade no Escritório" },
-      { href: "/courses-single-6/3", label: "Design" },
-      { href: "/courses/1", label: "Marketing" },
-    ],
-  },
-  {
-    title: "OUTROS",
-    links: [
-      { href: "/courses/1", label: "Estilo de Vida" },
-      { href: "/courses-single-2/3", label: "Fotografia e Vídeo" },
-      { href: "/courses-single-3/3", label: "Saúde e Fitness" },
-      { href: "/courses-single-4/3", label: "Música" },
-      { href: "/courses-single-5/3", label: "Design UX" },
-      { href: "/courses-single-6/3", label: "SEO" },
+      { href: "/courses/1", label: "Contabilidade" },
+      { href: "/courses-single-2/3", label: "Engenharia e Arquitetura" },
+      { href: "/courses-single-3/3", label: "Comunicação" },
+      { href: "/courses-single-4/3", label: "Saúde" },
+      { href: "/courses-single-5/3", label: "Psicologia" },
+      { href: "/courses-single-6/3", label: "Direito e perícias forenses" },
     ],
   },
   {

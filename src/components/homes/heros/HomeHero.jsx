@@ -172,7 +172,7 @@ const HomeHero = () => {
                         3.000 +
                       </div>
                       <div className="mt-3">
-                      Cursos Gratuitos</div>
+                      Cursos pós-graduação</div>
                     </div>
                   </div>
                 </div>
