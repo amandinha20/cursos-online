@@ -60,7 +60,7 @@ export const testimonials = [
 export const testimonialsTwo = [
   {
     id: 1,
-    author: "Sarah Johnson",
+    author: "Ali Tufan",
     position: "Gerente de Produto, Apple Inc.",
     text: "Não é exagero dizer que esta experiência na Educrat foi transformadora, tanto profissional quanto pessoalmente. Este workshop permanecerá por muito tempo como um ponto alto da minha vida.",
   },
@@ -84,7 +84,7 @@ export const testimonialsTwo = [
   },
   {
     id: 5,
-    author: "Sarah Thompson",
+    author: "Psi. Juliana Fernandes",
     position: "Especialista em Marketing Digital",
     text: "O Educrat mudou completamente o meu jogo. Os cursos são atualizados e relevantes, me ajudando a me manter à frente no campo em constante mudança do marketing digital.",
   },

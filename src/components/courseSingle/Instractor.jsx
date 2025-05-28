@@ -16,7 +16,7 @@ export default function Instractor() {
           </div>
 
           <div className="">
-            <h5 className="text-17 lh-14 fw-500">Floyd Miles</h5>
+            <h5 className="text-17 lh-14 fw-500">Dr. Ricardo Almeida</h5>
             <p className="mt-5">President of Sales</p>
 
             <div className="d-flex x-gap-20 y-gap-10 flex-wrap items-center pt-10">
