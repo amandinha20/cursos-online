@@ -206,7 +206,7 @@ export default function BlogDetails({ id }) {
                   </div>
 
                   <div className="ml-30 md:ml-20">
-                    <h4 className="text-17 lh-15 fw-500">Brooklyn Simmons</h4>
+                    <h4 className="text-17 lh-15 fw-500">Dra. Camila Souza</h4>
                     <div className="mt-5">Medical Assistant</div>
                     <p className="mt-25">
                       Etiam vitae leo et diam pellentesque porta. Sed eleifend
@@ -330,7 +330,7 @@ export default function BlogDetails({ id }) {
                           <div className="comments__body md:mt-15">
                             <div className="comments__header">
                               <h4 className="text-17 fw-500 lh-15">
-                                Ali Tufan
+                                Psi. Juliana Fernandes
                                 <span className="text-13 text-light-1 fw-400">
                                   3 Days ago
                                 </span>
@@ -382,7 +382,7 @@ export default function BlogDetails({ id }) {
                           <div className="comments__body md:mt-15">
                             <div className="comments__header">
                               <h4 className="text-17 fw-500 lh-15">
-                                Ali Tufan
+                                Psi. Juliana Fernandes
                                 <span className="text-13 text-light-1 fw-400">
                                   3 Days ago
                                 </span>
