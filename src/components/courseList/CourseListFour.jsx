@@ -427,7 +427,17 @@ export default function CourseListFour() {
                   >
                     <div
                       className="dropdown__button d-flex items-center text-14 rounded-8 px-20 py-10 text-14 lh-12"
+                      
+                      onClick={() => {
+                        document
+                          .getElementById("dd56button")
+                          .classList.toggle("-is-dd-active"); 
+                        document
+                          .getElementById("dd56content")
+                          .classList.toggle("-is-el-visible");
 
+                      }}
+                      
                       data-el-toggle=".js-level-toggle"
                       data-el-toggle-active=".js-level-active"
                     >
