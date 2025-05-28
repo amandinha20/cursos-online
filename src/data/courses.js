@@ -546,10 +546,7 @@ export const coursesData = [
     authorName: "Robert Fox",
     viewStatus: "Bom",
     difficulty: "Fácil",
-    desc: "Curso introdutório sobre hospedagem na web, registro de domínio e como você pode publicar e editar facilmente seu site online.",
-=======
     desc: "Curso introdutório sobre técnicas de comunicação eficaz, expressão verbal e não verbal, e como se comunicar com clareza e confiança em diferentes contextos..",
->>>>>>> 2527e076831b4256829a557ec128fb7c172cf085
   },
   
   {
@@ -970,7 +967,7 @@ export const resentCourses = [
     id: 1,
     imageSrc: "/assets/img/dashboard/recent-courses/1.png",
     title: "Curso Completo de Python: Do Zero ao Herói em Python",
-    author: "Ali Tufan",
+    author: "Sarah Johnson",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,
@@ -979,7 +976,7 @@ export const resentCourses = [
     id: 2,
     imageSrc: "/assets/img/dashboard/recent-courses/3.png",
     title: "O Curso Definitivo de Desenho: Do Iniciante ao Avançado",
-    author: "Ali Tufan",
+    author: "Sarah Johnson",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,
@@ -988,7 +985,7 @@ export const resentCourses = [
     id: 3,
     imageSrc: "/assets/img/dashboard/recent-courses/3.png",
     title: "Marketing no Instagram 2021: Guia Completo para Crescimento no Instagram",
-    author: "Ali Tufan",
+    author: "Sarah Johnson",
     authorImg: `/assets/img/general/avatar-1.png`,
     lessonCount: 6,
     duration: 236,

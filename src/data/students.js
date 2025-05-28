@@ -58,7 +58,7 @@ export const students = [
   {
     id: 5,
     imgSrc: "/assets/img/home-2/students/5.png",
-    name: "Ali Tufan",
+    name: "Sarah Johnson",
     title: "Coordenador de Marketing",
     socials: [
       { icon: "fa fa-facebook", link: "#" },

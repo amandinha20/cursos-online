@@ -74,7 +74,7 @@ export default function Menu({ allClasses, headerPosition }) {
                 to="/blog-list-3"
                 className={menuItem == "Blog" ? "activeMenu" : ""}
               >
-                Blogue <div className=""></div>
+                Blog <div className=""></div>
               </Link>
             </li>
 

@@ -60,7 +60,7 @@ export const testimonials = [
 export const testimonialsTwo = [
   {
     id: 1,
-    author: "Ali Tufan",
+    author: "Sarah Johnson",
     position: "Gerente de Produto, Apple Inc.",
     text: "Não é exagero dizer que esta experiência na Educrat foi transformadora, tanto profissional quanto pessoalmente. Este workshop permanecerá por muito tempo como um ponto alto da minha vida.",
   },

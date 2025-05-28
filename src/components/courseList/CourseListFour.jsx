@@ -191,12 +191,12 @@ export default function CourseListFour() {
             <div className="row">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Cursos de Interface de Usuário</h1>
+                  <h1 className="page-header__title">Todos os Cursos Disponíveis</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    Escreva uma descrição introdutória da categoria.
+                    Veja nossa seleção completa de cursos e escolha a melhor opção para aprimorar seus conhecimentos e avançar na sua carreira.
                   </p>
                 </div>
               </div>
