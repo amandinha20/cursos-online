@@ -2,7 +2,7 @@ export const reviews = [
   {
     id: 1,
     avatarSrc: "/assets/img/avatars/1.png",
-    name: "Sarah Johnson",
+    name: "Psi. Juliana Fernandes",
     date: "Há 3 dias",
     rating: 5,
     title: "O melhor design de LMS",
@@ -12,7 +12,7 @@ export const reviews = [
   {
     id: 2,
     avatarSrc: "/assets/img/avatars/1.png",
-    name: "Sarah Johnson",
+    name: "Psi. Juliana Fernandes",
     date: "Há 3 dias",
     rating: 5,
     title: "O melhor design de LMS",
@@ -22,7 +22,7 @@ export const reviews = [
   {
     id: 3,
     avatarSrc: "/assets/img/avatars/1.png",
-    name: "Sarah Johnson",
+    name: "Psi. Juliana Fernandes",
     date: "Há 3 dias",
     rating: 5,
     title: "O melhor design de LMS",

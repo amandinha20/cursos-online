@@ -86,7 +86,7 @@ export default function CourseCardTwo({ data, index }) {
             <div className="coursesCard-footer">
               <div className="coursesCard-footer__author">
                 <img src={data.authorImageSrc} alt="image" />
-                <div>{data.authorName || "Sarah Johnson"}</div>
+                <div>{data.authorName || "Psi. Juliana Fernandes"}</div>
               </div>
 
               <div className="coursesCard-footer__price">

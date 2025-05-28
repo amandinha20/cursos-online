@@ -2,7 +2,7 @@ export const students = [
   {
     id: 1,
     imgSrc: "/assets/img/home-2/students/1.png",
-    name: "Brooklyn Simmons",
+    name: "Dra. Camila Souza",
     title: "Designer Web",
     socials: [
       { icon: "fa fa-facebook", link: "#" },
@@ -58,7 +58,7 @@ export const students = [
   {
     id: 5,
     imgSrc: "/assets/img/home-2/students/5.png",
-    name: "Sarah Johnson",
+    name: "Psi. Juliana Fernandes",
     title: "Coordenador de Marketing",
     socials: [
       { icon: "fa fa-facebook", link: "#" },
