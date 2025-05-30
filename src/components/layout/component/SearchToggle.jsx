@@ -30,7 +30,7 @@ const SearchToggle = ({ allClasses, color }) => {
                   required
                   type="text"
                   className="col-12 text-18 lh-12 text-dark-1 fw-500"
-                  placeholder="What do you want to learn?"
+                  placeholder="O que você quer aprender?"
                 />
 
                 <button
@@ -38,39 +38,39 @@ const SearchToggle = ({ allClasses, color }) => {
                   className="d-flex items-center justify-center size-40 rounded-full bg-purple-3"
                   data-el-toggle=".js-search-toggle"
                 >
-                  <img src="/assets/img/menus/close.svg" alt="icon" />
+                  <img src="/assets/img/menus/close.svg" alt="ícone fechar" />
                 </button>
               </div>
 
               <div className="header-search__content mt-30">
                 <div className="text-17 text-dark-1 fw-500">
-                  Popular Right Now
+                  Populares agora
                 </div>
 
                 <div className="d-flex y-gap-5 flex-column mt-20">
                   <Link to={`/courses/${5}`} className="text-dark-1">
-                    The Ultimate Drawing Course - Beginner to Advanced
+                    Curso Definitivo de Desenho - Do Iniciante ao Avançado
                   </Link>
                   <Link to="/courses-single-2/3" className="text-dark-1">
-                    Character Art School: Complete Character Drawing Course
+                    Escola de Arte de Personagem: Curso Completo de Desenho de Personagem
                   </Link>
                   <Link to="/courses-single-3/3" className="text-dark-1">
-                    Complete Blender Creator: Learn 3D Modelling for Beginners
+                    Blender Completo: Aprenda Modelagem 3D para Iniciantes
                   </Link>
                   <Link to="/courses-single-4/3" className="text-dark-1">
-                    User Experience Design Essentials - Adobe XD UI UX Design
+                    Essenciais de Design de Experiência do Usuário - Adobe XD UI UX Design
                   </Link>
                   <Link to="/courses-single-5/3" className="text-dark-1">
-                    Graphic Design Masterclass - Learn GREAT Design
+                    Masterclass de Design Gráfico - Aprenda EXCELENTE Design
                   </Link>
                   <Link to="/courses-single-6/3" className="text-dark-1">
-                    Adobe Photoshop CC – Essentials Training Course
+                    Adobe Photoshop CC – Curso Essencial de Treinamento
                   </Link>
                 </div>
 
                 <div className="mt-30">
                   <button className="uppercase underline">
-                    PRESS ENTER TO SEE ALL SEARCH RESULTS
+                    PRESSIONE ENTER PARA VER TODOS OS RESULTADOS DA PESQUISA
                   </button>
                 </div>
               </div>
