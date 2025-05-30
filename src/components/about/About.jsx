@@ -42,14 +42,13 @@ export default function About() {
 
             <div className="col-lg-5">
               <h2 className="text-30 lh-16">
-                Bem-vindo ao Instituto Saber+. Melhore suas habilidades com os melhores cursos online
+                Bem-vindo ao Instituto Saber+! Transforme seu futuro com os melhores cursos online
               </h2>
               <p className="text-dark-1 mt-30">
-                Você pode começar e terminar um desses cursos populares em menos de um dia – de graça! Confira a lista abaixo. Faça o curso de graça.
+                Oferecemos uma plataforma completa para você aprender, se especializar e conquistar novas oportunidades profissionais. Nossos cursos são desenvolvidos por especialistas e pensados para o seu crescimento.
               </p>
               <p className="pr-50 lg:pr-0 mt-25">
-                Neque convallis a cras semper auctor. Libero id faucibus nisl
-                tincidunt eget. Neque convallis a cras semper auctor. Neque convallis a cras semper auctor. Libero id faucibus nisl tincidunt eget.
+                Aprenda no seu ritmo, com acesso 24h, certificado reconhecido e suporte dedicado. Faça parte da nossa comunidade e avance na sua carreira com conhecimento de qualidade!
               </p>
               <div className="d-inline-block">
                 <Link

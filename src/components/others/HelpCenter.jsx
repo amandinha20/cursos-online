@@ -12,13 +12,13 @@ export default function HelpCenter() {
             <div className="row justify-center text-center">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">How can we help you?</h1>
+                  <h1 className="page-header__title">Como podemos ajudar você?</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Nossa missão é oferecer cursos envolventes e selecionados a um
+                    preço acessível.
                   </p>
                 </div>
               </div>
@@ -35,11 +35,11 @@ export default function HelpCenter() {
                 <input
                   required
                   type="text"
-                  placeholder="Enter a question, topic or keyword"
+                  placeholder="Digite uma pergunta, tópico ou palavra-chave"
                 />
                 <button className="button -purple-1 text-white" type="submit">
                   <i className="icon-search text-20 mr-15"></i>
-                  Search
+                  Buscar
                 </button>
               </form>
             </div>

@@ -23,7 +23,10 @@ export default function NotFound() {
                 A página que você procura não está disponível. Tente pesquisar novamente
                 <br /> ou utilize o menu para navegar.
               </div>
-              <button className="button -md -purple-1 text-white mt-20">
+              <button
+                className="button -md -purple-1 text-white mt-20"
+                onClick={() => window.location.href = "/"}
+              >
                 Voltar para a página inicial
               </button>
             </div>
