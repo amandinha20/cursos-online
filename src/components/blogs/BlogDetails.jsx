@@ -50,68 +50,62 @@ export default function BlogDetails({ id }) {
                 <div className="col-xl-8 col-lg-9 col-md-11">
                   <div className="blogCard__content">
                     <h4 className="text-18 fw-500">
-                      What makes a good brand book?
+                      A importância da educação ambiental para a saúde
                     </h4>
                     <p className="mt-30">
-                      Sed viverra ipsum nunc aliquet bibendum enim facilisis
-                      gravida. Diam phasellus vestibulum lorem sed risus
-                      ultricies. Magna sit amet purus gravida quis blandit. Arcu
-                      cursus vitae congue mauris. Nunc mattis enim ut tellus
-                      elementum sagittis vitae et leo. Semper risus in hendrerit
-                      gravida rutrum quisque non. At urna condimentum mattis
-                      pellentesque id nibh tortor. A erat nam at lectus urna
-                      duis convallis convallis tellus. Sit amet mauris commodo
-                      quis imperdiet massa. Vitae congue eu consequat ac felis.
+                      A educação ambiental é fundamental para promover a
+                      conscientização sobre o impacto das nossas ações no meio
+                      ambiente e, consequentemente, na saúde coletiva. Compreender
+                      como a poluição, o descarte inadequado de resíduos e o uso
+                      excessivo de recursos naturais afetam o nosso bem-estar é
+                      essencial para adotar hábitos mais sustentáveis.
                     </p>
-
+                    <p className="mt-20">
+                      Além disso, a educação ambiental contribui para a prevenção de doenças, pois incentiva práticas que evitam a contaminação do solo, da água e do ar. Ao aprender sobre a importância da reciclagem, do consumo consciente e da preservação das florestas, desenvolvemos uma relação mais saudável com o planeta e com a nossa própria saúde.
+                    </p>
+                    <p className="mt-20">
+                      A integração entre saúde e meio ambiente é cada vez mais reconhecida por profissionais das áreas médicas e ambientais. Investir em educação ambiental é investir em qualidade de vida, bem-estar e longevidade para toda a sociedade.
+                    </p>
                     <ul className="ul-list y-gap-10 mt-30">
                       <li>
-                        Sed viverra ipsum nunc aliquet bibendum enim facilisis
-                        gravida.
+                        A educação ambiental incentiva práticas que reduzem a
+                        poluição do ar e da água, prevenindo doenças respiratórias
+                        e infecciosas.
                       </li>
                       <li>
-                        At urna condimentum mattis pellentesque id nibh. Laoreet
-                        non curabitur
+                        Promove o consumo consciente e a preservação dos recursos
+                        naturais, garantindo qualidade de vida para as próximas
+                        gerações.
                       </li>
-                      <li>Magna etiam tempor orci eu lobortis elementum.</li>
                       <li>
-                        Bibendum est ultricies integer quis. Semper eget duis at
-                        tellus.
+                        Estimula a participação em ações coletivas de cuidado com o
+                        meio ambiente, fortalecendo a saúde das comunidades.
+                      </li>
+                      <li>
+                        Contribui para a formação de cidadãos responsáveis, capazes
+                        de tomar decisões que beneficiam tanto o planeta quanto a
+                        saúde humana.
+                      </li>
+                      <li>
+                        Incentiva o contato com a natureza, promovendo benefícios físicos e mentais, como redução do estresse e melhora da imunidade.
+                      </li>
+                      <li>
+                        Ajuda a combater as mudanças climáticas, que impactam diretamente a saúde pública, como ondas de calor, enchentes e proliferação de vetores de doenças.
                       </li>
                     </ul>
-
-                    {/* <!-- <div className="py-25 pl-90 lg:pl-80 md:px-32 border-left-2-accent text-center mt-30 lg:mt-40">
-                  <div className="">
-                    <i className="icon icon-quote"></i>
-                  </div>
-
-                  <div className="text-dark-1 fw-500 italic text-2xl lh-17">
-                    “Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Diam phasellus vestibulum lorem sed risus ultricies. Magna sit amet purus gravida quis blandit. Arcu cursus vitae congue mauris.“
-                  </div>
-                </div> --> */}
-
                     <p className="mt-30">
-                      Donec purus posuere nullam lacus aliquam egestas arcu. A
-                      egestas a, tellus massa, ornare vulputate. Erat enim eget
-                      laoreet ullamcorper lectus aliquet nullam tempus id.
-                      Dignissim convallis quam aliquam rhoncus, lectus nullam
-                      viverra. Bibendum dignissim tortor, phasellus pellentesque
-                      commodo, turpis vel eu. Donec consectetur ipsum nibh
-                      lobortis elementum mus velit tincidunt elementum.
-                      Ridiculus eu convallis eu mattis iaculis et, in dolor. Sem
-                      libero, tortor suspendisse et, purus euismod posuere sit.
-                      Risus dui ut viverra venenatis ipsum tincidunt non, proin.
-                      Euismod pharetra sit ac nisi. Erat lacus, amet quisque
-                      urna faucibus. Rhoncus praesent faucibus rhoncus nec
-                      adipiscing tristique sed facilisis velit.
-                      <br />
-                      <br />
-                      Neque nulla porta ut urna rutrum. Aliquam cursus arcu
-                      tincidunt mus dictum sit euismod cum id. Dictum integer
-                      ultricies arcu fermentum fermentum sem consectetur.
-                      Consectetur eleifend aenean eu neque euismod amet
-                      parturient turpis vitae. Faucibus ipsum felis et duis
-                      fames.
+                      Ao investir em educação ambiental, estamos cuidando do nosso
+                      presente e futuro. Pequenas atitudes, como separar o lixo,
+                      economizar água e valorizar áreas verdes, fazem grande
+                      diferença na prevenção de doenças e na promoção do bem-estar.
+                      A saúde do planeta está diretamente ligada à saúde de todos
+                      nós.
+                    </p>
+                    <p className="mt-20">
+                      Escolas, empresas e comunidades têm papel fundamental na disseminação de práticas sustentáveis. Incentivar projetos de educação ambiental é garantir que mais pessoas estejam preparadas para enfrentar os desafios ambientais e cuidar da saúde coletiva.
+                    </p>
+                    <p className="mt-20">
+                      
                     </p>
                   </div>
 
@@ -134,27 +128,13 @@ export default function BlogDetails({ id }) {
 
                   <div className="blogCard__content pt-30">
                     <p>
-                      Donec purus posuere nullam lacus aliquam egestas arcu. A
-                      egestas a, tellus massa, ornare vulputate. Erat enim eget
-                      laoreet ullamcorper lectus aliquet nullam tempus id.
-                      Dignissim convallis quam aliquam rhoncus, lectus nullam
-                      viverra. Bibendum dignissim tortor, phasellus pellentesque
-                      commodo, turpis vel eu. Donec consectetur ipsum nibh
-                      lobortis elementum mus velit tincidunt elementum.
-                      Ridiculus eu convallis eu mattis iaculis et, in dolor. Sem
-                      libero, tortor suspendisse et, purus euismod posuere sit.
-                      Risus dui ut viverra venenatis ipsum tincidunt non, proin.
-                      Euismod pharetra sit ac nisi. Erat lacus, amet quisque
-                      urna faucibus. Rhoncus praesent faucibus rhoncus nec
-                      adipiscing tristique sed facilisis velit.
+                      Escolas, empresas e comunidades têm papel fundamental na disseminação de práticas sustentáveis. Incentivar projetos de educação ambiental é garantir que mais pessoas estejam preparadas para enfrentar os desafios ambientais e cuidar da saúde coletiva.
                       <br />
                       <br />
-                      Neque nulla porta ut urna rutrum. Aliquam cursus arcu
-                      tincidunt mus dictum sit euismod cum id. Dictum integer
-                      ultricies arcu fermentum fermentum sem consectetur.
-                      Consectetur eleifend aenean eu neque euismod amet
-                      parturient turpis vitae. Faucibus ipsum felis et duis
-                      fames.
+                      Participe de iniciativas ambientais, compartilhe conhecimento
+                      e inspire outras pessoas a também adotarem práticas
+                      sustentáveis. O equilíbrio entre meio ambiente e saúde
+                      depende das escolhas que fazemos diariamente.
                     </p>
                   </div>
                 </div>
@@ -166,7 +146,7 @@ export default function BlogDetails({ id }) {
                 <div className="row y-gap-20 justify-between items-center">
                   <div className="col-auto">
                     <div className="d-flex items-center">
-                      <div className="lh-1 text-dark-1 fw-500 mr-30">Share</div>
+                      <div className="lh-1 text-dark-1 fw-500 mr-30">Compartilhar</div>
 
                       <div className="d-flex x-gap-15">
                         <a href="#">Fb</a>
@@ -207,13 +187,9 @@ export default function BlogDetails({ id }) {
 
                   <div className="ml-30 md:ml-20">
                     <h4 className="text-17 lh-15 fw-500">Dra. Camila Souza</h4>
-                    <div className="mt-5">Medical Assistant</div>
+                    <div className="mt-5">Assistente médica</div>
                     <p className="mt-25">
-                      Etiam vitae leo et diam pellentesque porta. Sed eleifend
-                      ultricies risus, vel rutrum erat commodo ut. Praesent
-                      finibus congue euismod. Nullam scelerisque massa vel augue
-                      placerat, a tempor sem egestas. Curabitur placerat finibus
-                      lacus.
+                      O Instituto Saber+ proporciona uma experiência incrível para quem busca conhecimento em saúde e meio ambiente. Os cursos são completos, com abordagem prática e professores dedicados. Recomendo para todos que desejam aprimorar sua formação e contribuir para um mundo melhor!
                     </p>
                   </div>
                 </div>
@@ -236,9 +212,9 @@ export default function BlogDetails({ id }) {
                           ></i>
                         </div>
                         <div className="related-nav__content">
-                          <div className="text-17 text-dark-1 fw-500">Prev</div>
+                          <div className="text-17 text-dark-1 fw-500">Anterior</div>
                           <p className="text-dark-1 mt-8">
-                            5 awesome steps to get rid of stress and routine
+                            5 passos incríveis para se livrar do estresse e da rotina
                           </p>
                         </div>
                       </a>
@@ -278,7 +254,8 @@ export default function BlogDetails({ id }) {
                           <span></span>
                         </div>
 
-                        <div className="col-4">
+                        className="col-4"
+                        <div>
                           <span></span>
                         </div>
                       </div>
@@ -290,9 +267,9 @@ export default function BlogDetails({ id }) {
                         className="related-nav__item -next text-right decoration-none"
                       >
                         <div className="related-nav__content">
-                          <div className="text-17 text-dark-1 fw-500">Next</div>
+                          <div className="text-17 text-dark-1 fw-500">Próximo</div>
                           <p className="text-dark-1 mt-8">
-                            Happy clients leave positive feedback less often
+                            Clientes satisfeitos deixam comentários positivos com menos frequência
                           </p>
                         </div>
                         <div className="related-nav__arrow">
@@ -312,7 +289,7 @@ export default function BlogDetails({ id }) {
               <div className="col-xl-8 col-lg-9 col-md-11">
                 <div className="blogPost -comments">
                   <div className="blogPost__content">
-                    <h2 className="text-20 fw-500">Reviews</h2>
+                    <h2 className="text-20 fw-500">Avaliações</h2>
 
                     <ul className="comments__list mt-30">
                       <li className="comments__item">
@@ -326,47 +303,43 @@ export default function BlogDetails({ id }) {
                               }}
                             ></div>
                           </div>
-
                           <div className="comments__body md:mt-15">
                             <div className="comments__header">
                               <h4 className="text-17 fw-500 lh-15">
                                 Psi. Juliana Fernandes
                                 <span className="text-13 text-light-1 fw-400">
-                                  3 Days ago
+                                  3 dias atrás
                                 </span>
                               </h4>
-
                               <div className="stars"></div>
                             </div>
-
                             <h5 className="text-15 fw-500 mt-15">
-                              The best LMS Design
+                              Melhor app já criado de pós-graduação!
                             </h5>
                             <div className="comments__text mt-10">
                               <p>
-                                This course is a very applicable. Professor Ng
-                                explains precisely each algorithm and even tries
-                                to give an intuition for mathematical and
-                                statistic concepts behind each algorithm. Thank
-                                you very much.
+                                O Instituto Saber+ é referência em educação
+                                ambiental! Os cursos são completos, com professores
+                                experientes e conteúdos que realmente fazem a
+                                diferença para quem quer contribuir com a
+                                sustentabilidade. Recomendo para todos que desejam
+                                transformar o amanhã!
                               </p>
                             </div>
-
                             <div className="comments__helpful mt-20">
                               <span className="text-13 text-purple-1">
-                                Was this review helpful?
+                                Essa avaliação foi útil?
                               </span>
                               <button className="button text-13 -sm -purple-1 text-white">
-                                Yes
+                                Sim
                               </button>
                               <button className="button text-13 -sm -light-7 text-purple-1">
-                                No
+                                Não
                               </button>
                             </div>
                           </div>
                         </div>
                       </li>
-
                       <li className="comments__item">
                         <div className="comments__item-inner md:direction-column">
                           <div className="comments__img mr-20">
@@ -378,41 +351,84 @@ export default function BlogDetails({ id }) {
                               }}
                             ></div>
                           </div>
-
                           <div className="comments__body md:mt-15">
                             <div className="comments__header">
                               <h4 className="text-17 fw-500 lh-15">
-                                Psi. Juliana Fernandes
+                                Dra. Maria  Eduarda
                                 <span className="text-13 text-light-1 fw-400">
-                                  3 Days ago
+                                  3 dias atrás
                                 </span>
                               </h4>
-
                               <div className="stars"></div>
                             </div>
-
                             <h5 className="text-15 fw-500 mt-15">
-                              The best LMS Design
+                              Incrível!
                             </h5>
                             <div className="comments__text mt-10">
                               <p>
-                                This course is a very applicable. Professor Ng
-                                explains precisely each algorithm and even tries
-                                to give an intuition for mathematical and
-                                statistic concepts behind each algorithm. Thank
-                                you very much.
+                                Estou muito satisfeita com os cursos de saúde do
+                                Instituto Saber+. O conteúdo é atualizado, os
+                                professores são atenciosos e o suporte ao aluno é
+                                excelente. Aprendi muito e consegui aplicar os
+                                conhecimentos na minha rotina profissional.
                               </p>
                             </div>
-
                             <div className="comments__helpful mt-20">
                               <span className="text-13 text-purple-1">
-                                Was this review helpful?
+                                Essa avaliação foi útil?
                               </span>
                               <button className="button text-13 -sm -purple-1 text-white">
-                                Yes
+                                Sim
                               </button>
                               <button className="button text-13 -sm -light-7 text-purple-1">
-                                No
+                                Não
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="comments__item">
+                        <div className="comments__item-inner md:direction-column">
+                          <div className="comments__img mr-20">
+                            <div
+                              className="bg-image rounded-full js-lazy"
+                              style={{
+                                backgroundImage:
+                                  "url(/assets/img/avatars/1.png)",
+                              }}
+                            ></div>
+                          </div>
+                          <div className="comments__body md:mt-15">
+                            <div className="comments__header">
+                              <h4 className="text-17 fw-500 lh-15">
+                                Rafael Mendes
+                                <span className="text-13 text-light-1 fw-400">
+                                  2 dias atrás
+                                </span>
+                              </h4>
+                              <div className="stars"></div>
+                            </div>
+                            <h5 className="text-15 fw-500 mt-15">
+                              Cursos de Psicologia
+                            </h5>
+                            <div className="comments__text mt-10">
+                              <p>
+                                Os cursos pós de psicologia do Instituto Saber+ são
+                                incríveis! As aulas são dinâmicas, os temas são
+                                atuais e o ambiente virtual é muito fácil de usar.
+                                Recomendo para quem busca crescimento e atualização
+                                na área.
+                              </p>
+                            </div>
+                            <div className="comments__helpful mt-20">
+                              <span className="text-13 text-purple-1">
+                                Essa avaliação foi útil?
+                              </span>
+                              <button className="button text-13 -sm -purple-1 text-white">
+                                Sim
+                              </button>
+                              <button className="button text-13 -sm -light-7 text-purple-1">
+                                Não
                               </button>
                             </div>
                           </div>
@@ -423,11 +439,11 @@ export default function BlogDetails({ id }) {
                 </div>
 
                 <div className="respondForm pt-30">
-                  <h3 className="text-20 fw-500">Write a Review</h3>
+                  <h3 className="text-20 fw-500">Escreva uma avaliação</h3>
 
                   <div className="mt-30">
                     <h4 className="text-16 fw-500">
-                      What is it like to Course?
+                      Como foi sua experiência com o curso?
                     </h4>
                     <div className="d-flex x-gap-10 pt-10">
                       <div className="icon-star text-14 text-yellow-1"></div>
@@ -444,23 +460,23 @@ export default function BlogDetails({ id }) {
                   >
                     <div className="col-12">
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                        Review Title
+                        Título da avaliação
                       </label>
                       <input
                         required
                         type="text"
                         name="title"
-                        placeholder="Great Courses"
+                        placeholder="Ótimos cursos"
                       />
                     </div>
                     <div className="col-12">
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                        Review Content
+                        Conteúdo da avaliação
                       </label>
                       <textarea
                         required
                         name="comment"
-                        placeholder="Message"
+                        placeholder="Mensagem"
                         rows="8"
                       ></textarea>
                     </div>
@@ -471,7 +487,7 @@ export default function BlogDetails({ id }) {
                         id="submit"
                         className="button -md -purple-1 text-white"
                       >
-                        Submit Review
+                        Enviar avaliação
                       </button>
                     </div>
                   </form>
