@@ -124,14 +124,14 @@ export default function HeaderDashboard() {
                 <div className="text-white d-flex items-center lg:d-none mr-15">
                   <div className="dropdown bg-transparent px-0 py-0">
                     <div className="d-flex items-center text-14 text-dark-1">
-                      All Pages
+                      Todas as Páginas
                       <i className="text-9 icon-chevron-down ml-10"></i>
                     </div>
                     <div className="dropdown__item -dark-bg-dark-2 -dark-border-white-10">
                       <div className="text-14 y-gap-15">
                         <div>
                           <Link to="/dashboard" className="d-block text-dark-1">
-                            Dashboard
+                            Painel de Controle
                           </Link>
                         </div>
                         <div>
@@ -139,7 +139,7 @@ export default function HeaderDashboard() {
                             to="/dshb-courses"
                             className="d-block text-dark-1"
                           >
-                            My Courses
+                            Meus Cursos
                           </Link>
                         </div>
                         <div>
@@ -147,7 +147,7 @@ export default function HeaderDashboard() {
                             to="/dshb-bookmarks"
                             className="d-block text-dark-1"
                           >
-                            Bookmarks
+                            Favoritos
                           </Link>
                         </div>
                         <div>
@@ -155,7 +155,7 @@ export default function HeaderDashboard() {
                             to="/dshb-listing"
                             className="d-block text-dark-1"
                           >
-                            Add Listing
+                            Adicione seu curso ao mundo!
                           </Link>
                         </div>
                         <div>
@@ -163,7 +163,7 @@ export default function HeaderDashboard() {
                             to="/dshb-reviews"
                             className="d-block text-dark-1"
                           >
-                            Reviews
+                            Avaliações dos nossos heróis!
                           </Link>
                         </div>
                         <div>
@@ -171,7 +171,7 @@ export default function HeaderDashboard() {
                             to="/dshb-settings"
                             className="d-block text-dark-1"
                           >
-                            Settings
+                            Configurações mágicas
                           </Link>
                         </div>
                       </div>
@@ -206,132 +206,11 @@ export default function HeaderDashboard() {
                       "d-flex items-center text-light-1 d-flex items-center justify-center size-50 rounded-16 -hover-dshb-header-light"
                     }
                   />
-
-                  <div
-                    className="relative"
-                    onClick={() => setMessageOpen(true)}
-                  >
-                    <a
-                      href="#"
-                      className="d-flex items-center text-light-1 justify-center size-50 rounded-16 -hover-dshb-header-light"
-                      data-el-toggle=".js-msg-toggle"
-                    >
-                      <i className="text-24 icon icon-email"></i>
-                    </a>
-                  </div>
-
-                  <div
-                    className="relative"
-                    onClick={() => setIsOnNotification((pre) => !pre)}
-                  >
-                    <a
-                      href="#"
-                      className="d-flex items-center text-light-1 justify-center size-50 rounded-16 -hover-dshb-header-light"
-                      data-el-toggle=".js-notif-toggle"
-                    >
-                      <i className="text-24 icon icon-notification"></i>
-                    </a>
-
-                    <div
-                      className={`toggle-element js-notif-toggle  ${
-                        isOnNotification ? "-is-el-visible" : ""
-                      } -`}
-                    >
-                      <div className="toggle-bottom -notifications bg-white shadow-4 border-light rounded-8 mt-10">
-                        <div className="py-30 px-30">
-                          <div className="y-gap-40">
-                            {notifications.map((elm, i) => (
-                              <div
-                                key={i}
-                                className={`d-flex items-center  ${
-                                  i !== 0
-                                    ? "border-top-light -dark-border-top-light-5"
-                                    : ""
-                                } `}
-                              >
-                                <div className="shrink-0">
-                                  <img src={elm.imageSrc} alt="image" />
-                                </div>
-                                <div className="ml-12">
-                                  <h4 className="text-15 lh-1 fw-500 -dark-text-dark-1">
-                                    {elm.heading}
-                                  </h4>
-                                  <div className="text-13 lh-1 mt-10">
-                                    {elm.time} Hours Ago
-                                  </div>
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  className="relative d-flex items-center ml-10"
-                  onClick={() => setIsOnProfile((pre) => !pre)}
-                >
-                  <a href="#" data-el-toggle=".js-profile-toggle">
-                    <img
-                      className="size-50"
-                      src="/assets/img/misc/user-profile.png"
-                      alt="image"
-                    />
-                  </a>
-
-                  <div
-                    className={`toggle-element js-profile-toggle ${
-                      isOnProfile ? "-is-el-visible" : ""
-                    } -`}
-                  >
-                    <div className="toggle-bottom -profile bg-white shadow-4 border-light rounded-8 mt-10">
-                      <div className="px-30 py-30">
-                        <div className="sidebar -dashboard">
-                          {sidebarItems.map((elm, i) => (
-                            <div
-                              key={i}
-                              className={`sidebar__item ${
-                                elm.id == 1 ? "-is-active -dark-bg-dark-2" : ""
-                              }`}
-                            >
-                              <a
-                                href={elm.href}
-                                className="d-flex items-center text-17 lh-1 fw-500 "
-                              >
-                                <i className={elm.iconClass}></i>
-                                {/* Tradução dos textos do menu do dashboard */}
-                                {elm.text === "Dashboard" && "Painel de Controle"}
-                                {elm.text === "My Courses" && "Meus Cursos"}
-                                {elm.text === "Bookmarks" && "Favoritos"}
-                                {elm.text === "Add Listing" && "Adicione seu curso ao mundo!"}
-                                {elm.text === "Reviews" && "Avaliações dos nossos heróis!"}
-                                {elm.text === "Settings" && "Configurações mágicas"}
-                                {/* fallback para outros textos */}
-                                { [
-                                  "Dashboard",
-                                  "My Courses",
-                                  "Bookmarks",
-                                  "Add Listing",
-                                  "Reviews",
-                                  "Settings",
-                                ].includes(elm.text)
-                                  ? ""
-                                  : "Explore novas possibilidades!"}
-                              </a>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <Messages setMessageOpen={setMessageOpen} messageOpen={messageOpen} />
       </header>
     </>
   );

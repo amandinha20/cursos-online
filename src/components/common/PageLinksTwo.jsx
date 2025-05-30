@@ -5,16 +5,16 @@ export default function PageLinksTwo() {
     <div className="breadcrumbs mt-10 pt-0 pb-0">
       <div className="breadcrumbs__content">
         <div className="breadcrumbs__item">
-          <Link to="/">Home</Link>
+          <Link to="/">Início</Link>
         </div>
         <div className="breadcrumbs__item">
-          <Link to="/courses-list-3">All courses</Link>
+          <Link to="/courses-list-3">Todos os cursos</Link>
         </div>
         <div className="breadcrumbs__item">
-          <Link to={`/courses/${5}`}>User Experience Design</Link>
+          <Link to={`/courses/${5}`}>Design de Experiência do Usuário</Link>
         </div>
         <div className="breadcrumbs__item">
-          <Link to={`/courses/${3}`}>User Interface</Link>
+          <Link to={`/courses/${3}`}>Interface do Usuário</Link>
         </div>
       </div>
     </div>

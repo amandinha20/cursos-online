@@ -10,7 +10,7 @@ export default function Sidebar() {
     <div className="sidebar -base-sidebar">
       <div className="sidebar__inner">
         <div>
-          <div className="text-16 lh-1 fw-500 text-dark-1 mb-30">General</div>
+          <div className="text-16 lh-1 fw-500 text-dark-1 mb-30">Geral</div>
           <div>
             <div className="sidebar__item -is-active">
               <Link
@@ -18,7 +18,7 @@ export default function Sidebar() {
                 className="-dark-sidebar-white d-flex items-center text-17 lh-1 fw-500"
               >
                 <i className="text-20 icon-discovery mr-15"></i>
-                Explore
+                Explorar
               </Link>
             </div>
 
@@ -28,7 +28,7 @@ export default function Sidebar() {
                 className="-dark-sidebar-white d-flex items-center text-17 lh-1 fw-500"
               >
                 <i className="text-20 icon-play-button mr-15"></i>
-                Courses
+                Cursos
               </Link>
             </div>
 
@@ -38,7 +38,7 @@ export default function Sidebar() {
                 className="-dark-sidebar-white d-flex items-center text-17 lh-1 fw-500"
               >
                 <i className="text-20 icon-book mr-15"></i>
-                Books
+                Livros
               </a>
             </div>
 
@@ -48,7 +48,7 @@ export default function Sidebar() {
                 className="-dark-sidebar-white d-flex items-center text-17 lh-1 fw-500"
               >
                 <i className="text-20 icon-list mr-15"></i>
-                Articles
+                Artigos
               </Link>
             </div>
 
@@ -58,14 +58,14 @@ export default function Sidebar() {
                 className="-dark-sidebar-white d-flex items-center text-17 lh-1 fw-500"
               >
                 <i className="text-20 icon-time-management mr-15"></i>
-                Calendar
+                Calendário
               </a>
             </div>
           </div>
         </div>
 
         <div className="mt-60">
-          <div className="text-16 lh-1 fw-500 text-dark-1 mb-30">Pages</div>
+          <div className="text-16 lh-1 fw-500 text-dark-1 mb-30">Páginas</div>
           <div className="">
             <div className="">
               <div
@@ -78,7 +78,7 @@ export default function Sidebar() {
                   } `}
                 >
                   <div className="accordion__button py-10 px-20 bg-light-4 rounded-16">
-                    <span className="text-16 fw-500 text-dark-1">About</span>
+                    <span className="text-16 fw-500 text-dark-1">Sobre</span>
                     <div className="accordion__icon display-flex justify-center items-center h-[100%]">
                       <div
                         className="icon size-20 mt-5"
@@ -106,13 +106,13 @@ export default function Sidebar() {
                     <div className="accordion__content__inner px-30 pt-15 pb-10">
                       <div className="sidebar__links y-gap-5">
                         <div>
-                          <Link to="/about-1">About v1</Link>
+                          <Link to="/about-1">Sobre v1</Link>
                         </div>
                         <div>
-                          <Link to="/about-2">About v2</Link>
+                          <Link to="/about-2">Sobre v2</Link>
                         </div>
                         <div>
-                          <a href="#">About v3</a>
+                          <a href="#">Sobre v3</a>
                         </div>
                       </div>
                     </div>
@@ -126,7 +126,7 @@ export default function Sidebar() {
                 to="/contact-1"
                 className="d-flex items-center justify-between py-15 px-20 rounded-16 text-16 lh-1 fw-500 -base-sidebar-menu-hover"
               >
-                Contact
+                Contato
               </Link>
             </div>
 
@@ -135,7 +135,7 @@ export default function Sidebar() {
                 to="/pricing"
                 className="d-flex items-center justify-between py-15 px-20 rounded-16 text-16 lh-1 fw-500 -base-sidebar-menu-hover"
               >
-                Pricing
+                Preços
               </Link>
             </div>
 
@@ -144,7 +144,7 @@ export default function Sidebar() {
                 to="/help-center"
                 className="d-flex items-center justify-between py-15 px-20 rounded-16 text-16 lh-1 fw-500 -base-sidebar-menu-hover"
               >
-                Help
+                Ajuda
               </Link>
             </div>
 
@@ -153,7 +153,7 @@ export default function Sidebar() {
                 to="/terms"
                 className="d-flex items-center justify-between py-15 px-20 rounded-16 text-16 lh-1 fw-500 -base-sidebar-menu-hover"
               >
-                Faq
+                FAQ
               </Link>
             </div>
 
@@ -162,7 +162,7 @@ export default function Sidebar() {
                 to="/terms"
                 className="d-flex items-center justify-between py-15 px-20 rounded-16 text-16 lh-1 fw-500 -base-sidebar-menu-hover"
               >
-                Term
+                Termos
               </Link>
             </div>
 
@@ -171,7 +171,7 @@ export default function Sidebar() {
                 href="#"
                 className="d-flex items-center justify-between py-15 px-20 rounded-16 text-16 lh-1 fw-500 -base-sidebar-menu-hover"
               >
-                Privacy
+                Privacidade
               </a>
             </div>
 
@@ -180,7 +180,7 @@ export default function Sidebar() {
                 href="#"
                 className="d-flex items-center justify-between py-15 px-20 rounded-16 text-16 lh-1 fw-500 -base-sidebar-menu-hover"
               >
-                Setting
+                Configurações
               </a>
             </div>
           </div>

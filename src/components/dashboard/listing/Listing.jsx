@@ -12,9 +12,9 @@ export default function Listing() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Create New Course</h1>
+            <h1 className="text-30 lh-12 fw-700">Criar Novo Curso</h1>
             <div className="mt-10">
-              Lorem ipsum dolor sit amet, consectetur.
+              Preencha as informações para criar um novo curso.
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@ export default function Listing() {
           <div className="col-12">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Basic Information</h2>
+                <h2 className="text-17 lh-1 fw-500">Informações Básicas</h2>
               </div>
 
               <div className="py-30 px-30">
@@ -34,107 +34,107 @@ export default function Listing() {
                 >
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Course Title*
+                      Título do Curso*
                     </label>
 
                     <input
                       required
                       type="text"
-                      placeholder="Learn Figma - UI/UX Design Essential Training"
+                      placeholder="Aprenda Figma - Treinamento Essencial de UI/UX Design"
                     />
                   </div>
 
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Short Description*
+                      Descrição Curta*
                     </label>
 
                     <textarea
                       required
-                      placeholder="Description"
+                      placeholder="Descrição"
                       rows="7"
                     ></textarea>
                   </div>
 
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Course Description*
+                      Descrição do Curso*
                     </label>
 
                     <textarea
                       required
-                      placeholder="Description"
+                      placeholder="Descrição"
                       rows="7"
                     ></textarea>
                   </div>
 
                   <div className="col-md-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      What will students learn in your course?*
+                      O que os alunos vão aprender no seu curso?*
                     </label>
 
                     <textarea
                       required
-                      placeholder="Description"
+                      placeholder="Descrição"
                       rows="7"
                     ></textarea>
                   </div>
 
                   <div className="col-md-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Requirements*
+                      Requisitos*
                     </label>
 
                     <textarea
                       required
-                      placeholder="Description"
+                      placeholder="Descrição"
                       rows="7"
                     ></textarea>
                   </div>
 
                   <div className="col-md-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Course Level*
+                      Nível do Curso*
                     </label>
 
-                    <input required type="text" placeholder="Select" />
+                    <input required type="text" placeholder="Selecione" />
                   </div>
 
                   <div className="col-md-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Audio Language*
+                      Idioma do Áudio*
                     </label>
 
-                    <input required type="text" placeholder="Select" />
+                    <input required type="text" placeholder="Selecione" />
                   </div>
 
                   <div className="col-md-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Close Caption*
+                      Legenda*
                     </label>
 
-                    <input required type="text" placeholder="Select" />
+                    <input required type="text" placeholder="Selecione" />
                   </div>
 
                   <div className="col-md-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Course Category*
+                      Categoria do Curso*
                     </label>
 
-                    <input required type="text" placeholder="Select" />
+                    <input required type="text" placeholder="Selecione" />
                   </div>
                 </form>
 
                 <div className="row y-gap-20 justify-between pt-15">
                   <div className="col-auto">
                     <button className="button -md -outline-purple-1 text-purple-1">
-                      Prev
+                      Anterior
                     </button>
                   </div>
 
                   <div className="col-auto">
                     <button className="button -md -purple-1 text-white">
-                      Next
+                      Próximo
                     </button>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ export default function Listing() {
           <div className="col-12">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Curriculum</h2>
+                <h2 className="text-17 lh-1 fw-500">Grade Curricular</h2>
               </div>
 
               <Curriculum />

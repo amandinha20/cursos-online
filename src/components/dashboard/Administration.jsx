@@ -4,15 +4,15 @@ import FooterNine from "../layout/footers/FooterNine";
 import { Link } from "react-router-dom";
 import PageLinksTwo from "../common/PageLinksTwo";
 const tabs = [
-  { id: 1, title: "Site administration" },
-  { id: 2, title: "Users" },
-  { id: 3, title: "Courses" },
-  { id: 4, title: "Grades" },
+  { id: 1, title: "Administração do site" },
+  { id: 2, title: "Usuários" },
+  { id: 3, title: "Cursos" },
+  { id: 4, title: "Notas" },
   { id: 5, title: "Plugins" },
-  { id: 6, title: "Appearance" },
-  { id: 7, title: "Server" },
-  { id: 8, title: "Reports" },
-  { id: 9, title: "Development" },
+  { id: 6, title: "Aparência" },
+  { id: 7, title: "Servidor" },
+  { id: 8, title: "Relatórios" },
+  { id: 9, title: "Desenvolvimento" },
 ];
 export default function Administration() {
   const [activeTab, setActiveTab] = useState(1);
@@ -21,7 +21,7 @@ export default function Administration() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Site Administration</h1>
+            <h1 className="text-30 lh-12 fw-700">Administração do site</h1>
 
             <PageLinksTwo />
           </div>

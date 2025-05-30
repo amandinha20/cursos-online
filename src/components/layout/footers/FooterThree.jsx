@@ -14,7 +14,7 @@ export default function FooterThree() {
             </div>
 
             <div className="mt-30">
-              <div className="text-17 text-dark-1">Call Us</div>
+              <div className="text-17 text-dark-1">Ligue para nós</div>
               <div className="text-17 lh-1 fw-500 text-purple-1 mt-5">
                 800 388 80 90
               </div>
@@ -22,7 +22,7 @@ export default function FooterThree() {
 
             <div className="mt-30 pr-20">
               <div className="lh-17">
-                329 Queensberry Street, North Melbourne VIC 3051, Australia.
+                329 Queensberry Street, North Melbourne VIC 3051, Austrália.
                 hi@educrat.com
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function FooterThree() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="footer-footer__copyright d-flex items-center h-100">
-                © {new Date().getFullYear()} Educrat. All Right Reserved.
+                © {new Date().getFullYear()} Instituto Saber+. Todos os direitos reservados.
               </div>
             </div>
 
@@ -64,7 +64,7 @@ export default function FooterThree() {
                     href="#"
                     className="button -md -light-4 px-20 -purple-3 text-purple-1"
                   >
-                    <i className="icon-worldwide mr-5"></i>English
+                    <i className="icon-worldwide mr-5"></i>Português
                   </a>
                 </div>
               </div>

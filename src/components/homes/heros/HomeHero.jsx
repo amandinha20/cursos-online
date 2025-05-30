@@ -22,11 +22,11 @@ const masthead_info = [
 ];
 
 const hero_content = {
-  title: "Aprenda novas habilidades online com os melhores",
+  title: "Conquiste finalmente a sua pós-graduação com os melhores",
   text_underline: "Professores",
   info_hero: (
     <>
-      Desenvolva habilidades com cursos, certificados e diplomas on-line
+      Desenvolva habilidades com cursos, certificados e diplomas
       <br /> universidades e empresas de classe mundial.
     </>
   ),

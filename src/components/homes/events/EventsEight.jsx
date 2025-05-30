@@ -8,10 +8,10 @@ export default function EventsEight() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">Upcoming Events</h2>
+              <h2 className="sectionTitle__title ">Próximos Eventos</h2>
 
               <p className="sectionTitle__text ">
-                Lorem ipsum dolor sit amet, consectetur.
+                Fique por dentro dos eventos e oportunidades do Instituto Saber+.
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function EventsEight() {
                             to={`/events/${elm.id}`}
                             className="button -icon -orange-1 text-white"
                           >
-                            Buy
+                            Comprar
                             <i className="icon-arrow-top-right text-13 ml-10"></i>
                           </Link>
                         </div>

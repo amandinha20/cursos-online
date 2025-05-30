@@ -10,9 +10,9 @@ export default function Reviews() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Reviews</h1>
+            <h1 className="text-30 lh-12 fw-700">Avaliações</h1>
             <div className="mt-10">
-              Lorem ipsum dolor sit amet, consectetur.
+              Veja o que os alunos estão dizendo sobre nossos cursos.
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@ export default function Reviews() {
           <div className="col-12">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">All Reviews</h2>
+                <h2 className="text-17 lh-1 fw-500">Todas as Avaliações</h2>
               </div>
 
               <div className="py-30 px-30">
@@ -58,7 +58,7 @@ export default function Reviews() {
 
                           <div className="comments__helpful mt-20">
                             <button className="button text-13 -sm -light-7 -dark-button-dark-2 text-purple-1">
-                              Respond
+                              Responder
                             </button>
                           </div>
                         </div>
@@ -76,7 +76,7 @@ export default function Reviews() {
         <div className="row items-center justify-between">
           <div className="col-auto">
             <div className="text-13 lh-1">
-              © 2022 Instituto Saber+. All Right Reserved.
+              © 2022 Instituto Saber+. Todos os direitos reservados.
             </div>
           </div>
 
@@ -85,33 +85,33 @@ export default function Reviews() {
               <div className="d-flex items-center flex-wrap x-gap-20">
                 <div>
                   <Link to="/help-center" className="text-13 lh-1">
-                    Help
+                    Ajuda
                   </Link>
                 </div>
                 <div>
                   <Link to="/terms" className="text-13 lh-1">
-                    Privacy Policy
+                    Política de Privacidade
                   </Link>
                 </div>
                 <div>
                   <a href="#" className="text-13 lh-1">
-                    Cookie Notice
+                    Aviso de Cookies
                   </a>
                 </div>
                 <div>
                   <a href="#" className="text-13 lh-1">
-                    Security
+                    Segurança
                   </a>
                 </div>
                 <div>
                   <Link to="/terms" className="text-13 lh-1">
-                    Terms of Use
+                    Termos de Uso
                   </Link>
                 </div>
               </div>
 
               <button className="button -md -rounded bg-light-4 text-light-1 ml-30">
-                English
+                Português
               </button>
             </div>
           </div>
