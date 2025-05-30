@@ -9,13 +9,13 @@ export default function Terms() {
             <div className="row justify-center text-center">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Terms & Conditions</h1>
+                  <h1 className="page-header__title">Termos e Condições</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Nossa missão é oferecer cursos envolventes e selecionados a um
+                    preço acessível.
                   </p>
                 </div>
               </div>
@@ -27,60 +27,62 @@ export default function Terms() {
         <div className="container">
           <div className="row justify-center">
             <div className="col-xl-8 col-lg-9 col-md-11">
-              <h5>Using our services</h5>
+              <h5>Uso dos nossos serviços</h5>
               <p className="mt-30">
-                You must follow any policies made available to you within the
-                Services. Don't misuse our Services. For example, don't
-                interfere with our Services or try to access them using a method
-                other than the interface and the instructions that we provide.
-                You may use our Services only as permitted by law, including
-                applicable export and re-export control laws and regulations. We
-                may suspend or stop providing our Services to you if you do not
-                comply with our terms or policies or if we are investigating
-                suspected misconduct. Using our Services does not give you
-                ownership of any intellectual property rights in our Services or
-                the content you access. You may not use content from our
-                Services unless you obtain permission from its owner or are
-                otherwise permitted by law. These terms do not grant you the
-                right to use any branding or logos used in our Services. Don't
-                remove, obscure, or alter any legal notices displayed in or
-                along with our Services.
+                Você deve seguir todas as políticas disponibilizadas a você dentro
+                dos Serviços. Não utilize nossos Serviços de maneira inadequada. Por
+                exemplo, não interfira em nossos Serviços nem tente acessá-los por
+                um método diferente da interface e das instruções que fornecemos.
+                Você pode usar nossos Serviços apenas conforme permitido por lei,
+                incluindo leis e regulamentos de controle de exportação e
+                reexportação aplicáveis. Podemos suspender ou deixar de fornecer
+                nossos Serviços a você se você não cumprir nossos termos ou
+                políticas ou se estivermos investigando suspeita de má conduta. O
+                uso dos nossos Serviços não lhe confere a propriedade de nenhum
+                direito de propriedade intelectual sobre os Serviços ou o conteúdo
+                que você acessa. Você não pode usar conteúdos dos nossos Serviços,
+                a menos que obtenha permissão do proprietário ou seja permitido por
+                lei. Estes termos não concedem a você o direito de usar qualquer
+                marca ou logotipo usado em nossos Serviços. Não remova, oculte ou
+                altere quaisquer avisos legais exibidos em ou junto com nossos
+                Serviços.
               </p>
             </div>
 
             <div className="col-xl-8 col-lg-9 col-md-11">
               <div className="mt-60 lg:mt-40">
-                <h5>Your content in our services</h5>
+                <h5>Seu conteúdo em nossos serviços</h5>
                 <p className="mt-30">
-                  When you upload, submit, store, send or receive content to or
-                  through our Services, you give Front (and those we work with)
-                  a worldwide license to use, host, store, reproduce, modify,
-                  create derivative works (such as those resulting from
-                  translations, adaptations or other changes we make so that
-                  your content works better with our Services), communicate,
-                  publish, publicly perform, publicly display and distribute
-                  such content. The rights you grant in this license are for the
-                  limited purpose of operating, promoting, and improving our
-                  Services, and to develop new ones. This license continues even
-                  if you stop using our Services (for example, for a business
-                  listing you have added to Front Maps). Some Services may offer
-                  you ways to access and remove content that has been provided
-                  to that Service. Also, in some of our Services, there are
-                  terms or settings that narrow the scope of our use of the
-                  content submitted in those Services.
+                  Ao enviar, armazenar, enviar ou receber conteúdo para ou através
+                  dos nossos Serviços, você concede ao Instituto Saber+ (e a quem
+                  trabalha conosco) uma licença mundial para usar, hospedar,
+                  armazenar, reproduzir, modificar, criar obras derivadas (como as
+                  resultantes de traduções, adaptações ou outras alterações que
+                  fazemos para que seu conteúdo funcione melhor com nossos
+                  Serviços), comunicar, publicar, executar publicamente, exibir
+                  publicamente e distribuir tal conteúdo. Os direitos concedidos
+                  nesta licença têm como finalidade a operação, promoção e
+                  melhoria dos nossos Serviços, bem como o desenvolvimento de
+                  novos. Esta licença continua mesmo que você pare de usar nossos
+                  Serviços (por exemplo, para uma listagem comercial que você
+                  adicionou ao Instituto Saber+). Alguns Serviços podem oferecer
+                  formas de acessar e remover conteúdo fornecido a esse Serviço.
+                  Além disso, em alguns dos nossos Serviços, existem termos ou
+                  configurações que restringem o nosso uso do conteúdo enviado
+                  nesses Serviços.
                 </p>
               </div>
             </div>
 
             <div className="col-xl-8 col-lg-9 col-md-11">
               <div className="mt-60 lg:mt-40">
-                <h5>Pay Attention</h5>
+                <h5>Atenção</h5>
                 <p className="mt-30">
-                  Our Services are very diverse, so sometimes additional terms
-                  or product requirements (including age requirements) may
-                  apply. Additional terms will be available with the relevant
-                  Services, and those additional terms become part of your
-                  agreement with us if you use.
+                  Nossos Serviços são muito diversos, portanto, às vezes, termos
+                  adicionais ou requisitos de produto (incluindo requisitos de
+                  idade) podem ser aplicados. Termos adicionais estarão disponíveis
+                  com os Serviços relevantes, e esses termos adicionais passarão a
+                  fazer parte do seu acordo conosco caso você utilize tais Serviços.
                 </p>
               </div>
             </div>
