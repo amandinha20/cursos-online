@@ -106,7 +106,7 @@ export default function CourseListFour() {
       setSortedFilteredData(
         [...filteredData].sort((a, b) => a.rating - b.rating),
       );
-    } else if (currentSortingOption == "Avaliação (dsc)") {
+    } else if (currentSortingOption == "Avaliação (dsc)") { 
       setSortedFilteredData(
         [...filteredData].sort((a, b) => b.rating - a.rating),
       );
