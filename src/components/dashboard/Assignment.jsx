@@ -9,7 +9,7 @@ export default function Assignment() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Assignment</h1>
+            <h1 className="text-30 lh-12 fw-700">Tarefa</h1>
 
             <PageLinksTwo />
           </div>
@@ -19,33 +19,33 @@ export default function Assignment() {
           <div className="col-xl-10">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Page Head</h2>
+                <h2 className="text-17 lh-1 fw-500">Cabeçalho da Página</h2>
               </div>
 
               <div className="py-30 px-30">
                 <div>
                   <h4 className="text-18 lh-1 fw-500">
-                    Assignment 1 (Text or Audio)
+                    Tarefa 1 (Texto ou Áudio)
                   </h4>
                   <div className="col-xl-6">
                     <p className="mt-15">
-                      Keep it short! Type or Record your answer! Record with the
-                      audio or video buttons above! From your readings, define
-                      Digital Literacy in no more than 15 words. Can you master
-                      the art of being succinct?
+                      Seja breve! Digite ou grave sua resposta! Grave com os
+                      botões de áudio ou vídeo acima! A partir de suas leituras,
+                      defina Alfabetização Digital em no máximo 15 palavras. Você
+                      consegue ser sucinto?
                     </p>
                   </div>
                 </div>
 
                 <div className="mt-60">
-                  <h4 className="text-18 lh-1 fw-500">Grading summary</h4>
+                  <h4 className="text-18 lh-1 fw-500">Resumo da avaliação</h4>
                 </div>
 
                 <div className="mt-30">
                   <div className="rounded-8 px-25 py-25 bg-light-4">
                     <div className="row">
                       <div className="col-3">
-                        <div className="text-dark-1">Hidden from students</div>
+                        <div className="text-dark-1">Oculto para os alunos</div>
                       </div>
                       <div
                         style={{
@@ -55,7 +55,7 @@ export default function Assignment() {
                         }}
                         className="col-auto"
                       >
-                        No
+                        Não
                       </div>
                     </div>
                   </div>
@@ -63,7 +63,7 @@ export default function Assignment() {
                   <div className="rounded-8 px-25 py-25 ">
                     <div className="row">
                       <div className="col-3">
-                        <div className="text-dark-1">Participants</div>
+                        <div className="text-dark-1">Participantes</div>
                       </div>
                       <div
                         style={{
@@ -81,7 +81,7 @@ export default function Assignment() {
                   <div className="rounded-8 px-25 py-25 bg-light-4">
                     <div className="row">
                       <div className="col-3">
-                        <div className="text-dark-1">Submitted</div>
+                        <div className="text-dark-1">Enviados</div>
                       </div>
                       <div
                         style={{
@@ -99,7 +99,7 @@ export default function Assignment() {
                   <div className="rounded-8 px-25 py-25 ">
                     <div className="row">
                       <div className="col-3">
-                        <div className="text-dark-1">Needs grading</div>
+                        <div className="text-dark-1">Precisa de avaliação</div>
                       </div>
                       <div
                         style={{
@@ -117,10 +117,10 @@ export default function Assignment() {
                   <div className="rounded-8 px-25 py-25 bg-light-4">
                     <div className="row">
                       <div className="col-3">
-                        <div className="text-dark-1">Due date</div>
+                        <div className="text-dark-1">Data de entrega</div>
                       </div>
                       <div className="col-auto">
-                        Thursday, 26 December 2019, 1:00 AM
+                        Quinta-feira, 26 de dezembro de 2019, 1:00
                       </div>
                     </div>
                   </div>
@@ -128,9 +128,9 @@ export default function Assignment() {
                   <div className="rounded-8 px-25 py-25 ">
                     <div className="row">
                       <div className="col-3">
-                        <div className="text-dark-1">Time remaining</div>
+                        <div className="text-dark-1">Tempo restante</div>
                       </div>
-                      <div className="col-auto">Assignment is due</div>
+                      <div className="col-auto">Tarefa pendente</div>
                     </div>
                   </div>
                 </div>
@@ -138,13 +138,13 @@ export default function Assignment() {
                 <div className="d-flex x-gap-30 flex-wrap y-gap-10 justify-center items-center mt-30">
                   <div>
                     <a href="#" className="button -icon -light-3 h-50">
-                      View All Submissions
+                      Ver todos os envios
                       <i className="icon-arrow-top-right text-13 ml-10"></i>
                     </a>
                   </div>
                   <div>
                     <a href="#" className="button -icon -light-3 h-50">
-                      Grade
+                      Avaliar
                       <i className="icon-arrow-top-right text-13 ml-10"></i>
                     </a>
                   </div>
@@ -155,7 +155,7 @@ export default function Assignment() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Forum Netiquette
+                    Netiqueta do Fórum
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
 
@@ -176,7 +176,7 @@ export default function Assignment() {
                       data-el-toggle=".js-category-toggle"
                       data-el-toggle-active=".js-category-active"
                     >
-                      <span className="js-dropdown-title">Jump to...</span>
+                      <span className="js-dropdown-title">Ir para...</span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
 
@@ -187,7 +187,7 @@ export default function Assignment() {
                       <div className="text-14 y-gap-15 js-dropdown-list">
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Animation
+                            Animação
                           </a>
                         </div>
 
@@ -199,13 +199,13 @@ export default function Assignment() {
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Illustration
+                            Ilustração
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Business
+                            Negócios
                           </a>
                         </div>
                       </div>
@@ -216,7 +216,7 @@ export default function Assignment() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Share Examples Of Digital
+                    Compartilhe exemplos de digital
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
                 </div>

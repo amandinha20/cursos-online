@@ -5,10 +5,10 @@ import Pagination from "../common/Pagination";
 import CoursesCardDashboard from "./DashBoardCards/CoursesCardDashboard";
 const ddItems = [
   { id: 1, label: "Todas as categorias" },
-  { id: 2, label: "Animação'" },
-  { id: 3, label: "Design" },
-  { id: 4, label: "ilustração" },
-  { id: 5, label: "Negócios" },
+  { id: 2, label: "Contabilidade'" },
+  { id: 3, label: "Engenharia e arquitetura" },
+  { id: 4, label: "Comunicação" },
+  { id: 5, label: "Saúde" },
   { id: 6, label: "Psicologia" },
 ];
 export default function MyCourses() {
@@ -46,7 +46,7 @@ export default function MyCourses() {
           <div className="col-auto">
             <h1 className="text-30 lh-12 fw-700">Meus Cursos</h1>
             <div className="mt-10">
-              Lorem ipsum dolor sit amet, consectetur.
+              Bem-vidos a plataforma Instituto Saber+
             </div>
           </div>
         </div>
@@ -204,7 +204,7 @@ export default function MyCourses() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Design
+                                      Educação
                                     </a>
                                   </div>
 

@@ -40,7 +40,7 @@ export default function Tabs() {
               data-tab-target=".-tab-item-3"
               type="button"
             >
-              Design
+              Educação
             </button>
           </div>
 
@@ -52,7 +52,7 @@ export default function Tabs() {
               data-tab-target=".-tab-item-4"
               type="button"
             >
-              ilustração
+             Negócios
             </button>
           </div>
         </div>

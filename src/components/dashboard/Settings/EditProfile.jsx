@@ -44,9 +44,9 @@ export default function EditProfile({ activeTab }) {
         </label>
 
         <div className="col-auto">
-          <div className="text-16 fw-500 text-dark-1">Your avatar</div>
+          <div className="text-16 fw-500 text-dark-1">Seu avatar</div>
           <div className="text-14 lh-1 mt-10">
-            PNG or JPG no bigger than 800px wide and tall.
+            PNG ou JPG com no máximo 800px de largura e altura.
           </div>
 
           <div className="d-flex x-gap-10 y-gap-10 flex-wrap pt-15">
@@ -87,79 +87,79 @@ export default function EditProfile({ activeTab }) {
         <form onSubmit={handleSubmit} className="contact-form row y-gap-30">
           <div className="col-md-6">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              First Name
+              Nome
             </label>
 
-            <input required type="text" placeholder="First Name" />
+            <input required type="text" placeholder="Nome" />
           </div>
 
           <div className="col-md-6">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Last Name
+              Sobrenome
             </label>
 
-            <input required type="text" placeholder="Last Name" />
+            <input required type="text" placeholder="Sobrenome" />
           </div>
 
           <div className="col-md-6">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Phone
+              Telefone
             </label>
 
-            <input required type="text" placeholder="Phone" />
+            <input required type="text" placeholder="Telefone" />
           </div>
 
           <div className="col-md-6">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Birthday
+              Data de nascimento
             </label>
 
-            <input required type="text" placeholder="Birthday" />
+            <input required type="text" placeholder="Data de nascimento" />
           </div>
 
           <div className="col-md-6">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Address Line 1
+              Endereço - Linha 1
             </label>
 
-            <input required type="text" placeholder="Address Line 1" />
+            <input required type="text" placeholder="Endereço - Linha 1" />
           </div>
 
           <div className="col-md-6">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Address Line 2
+              Endereço - Linha 2
             </label>
 
-            <input required type="text" placeholder="Address Line 2" />
+            <input required type="text" placeholder="Endereço - Linha 2" />
           </div>
 
           <div className="col-md-6">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              State
+              Estado
             </label>
 
-            <input required type="text" placeholder="State" />
+            <input required type="text" placeholder="Estado" />
           </div>
 
           <div className="col-md-6">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Country
+              País
             </label>
 
-            <input required type="text" placeholder="Country" />
+            <input required type="text" placeholder="País" />
           </div>
 
           <div className="col-12">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Personal info
+              Informações pessoais
             </label>
 
-            <textarea required placeholder="Text..." rows="7"></textarea>
+            <textarea required placeholder="Digite aqui..." rows="7"></textarea>
           </div>
 
           <div className="col-12">
             <button className="button -md -purple-1 text-white">
-              Update Profile
+              Atualizar perfil
             </button>
           </div>
         </form>

@@ -12,7 +12,7 @@ export default function Forums() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Forums</h1>
+            <h1 className="text-30 lh-12 fw-700">Fóruns</h1>
 
             <PageLinksTwo />
           </div>
@@ -22,39 +22,39 @@ export default function Forums() {
           <div className="col-12">
             <div className="rounded-16 bg-white shadow-4 h-100">
               <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Page Head</h2>
+                <h2 className="text-17 lh-1 fw-500">Cabeçalho da Página</h2>
               </div>
 
               <div className="py-30 px-30">
-                <h4 className="text-24 lh-12 fw-500">Course discussion</h4>
+                <h4 className="text-24 lh-12 fw-500">Discussão do curso</h4>
                 <div className="mt-15">
-                  In this space we'll discuss aspects of the films and of
-                  psychology in cinema in general. Feel free to raise issues
-                  which you think might help you with later assignments and
-                  group projects. This is a hive mind area! You can rate others
-                  and view ratings.
+                  Neste espaço vamos discutir aspectos dos filmes e da psicologia
+                  no cinema em geral. Sinta-se à vontade para levantar questões
+                  que possam ajudar em tarefas e projetos em grupo futuros. Esta é
+                  uma área de mente coletiva! Você pode avaliar outros e ver
+                  avaliações.
                 </div>
                 <button className="button h-50 px-30 -purple-1 text-white mt-30">
-                  Add a New Discussion Topic
+                  Adicionar novo tópico de discussão
                 </button>
 
                 <div className="mt-40">
                   <div className="px-30 py-20 bg-light-7 rounded-8">
                     <div className="row x-gap-10">
                       <div className="col-lg-4">
-                        <div className="text-purple-1">Discussion</div>
+                        <div className="text-purple-1">Discussão</div>
                       </div>
                       <div className="col-lg-3">
-                        <div className="text-purple-1">Started by</div>
+                        <div className="text-purple-1">Iniciado por</div>
                       </div>
                       <div className="col-lg-3">
-                        <div className="text-purple-1">Last post</div>
+                        <div className="text-purple-1">Última postagem</div>
                       </div>
                       <div className="col-lg-1">
-                        <div className="text-purple-1">Replies</div>
+                        <div className="text-purple-1">Respostas</div>
                       </div>
                       <div className="col-lg-1">
-                        <div className="text-purple-1">Subscribe</div>
+                        <div className="text-purple-1">Inscrever-se</div>
                       </div>
                     </div>
                   </div>
@@ -128,7 +128,7 @@ export default function Forums() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Forum Netiquette
+                    Netiqueta do Fórum
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
 
@@ -149,7 +149,7 @@ export default function Forums() {
                       data-el-toggle=".js-category-toggle"
                       data-el-toggle-active=".js-category-active"
                     >
-                      <span className="js-dropdown-title">Jump to...</span>
+                      <span className="js-dropdown-title">Ir para...</span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
 
@@ -160,7 +160,7 @@ export default function Forums() {
                       <div className="text-14 y-gap-15 js-dropdown-list">
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Animation
+                            Animação
                           </a>
                         </div>
 
@@ -172,13 +172,13 @@ export default function Forums() {
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Illustration
+                            Ilustração
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Business
+                            Negócios
                           </a>
                         </div>
                       </div>
@@ -189,7 +189,7 @@ export default function Forums() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Share Examples Of Digital
+                    Compartilhe exemplos de digital
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
                 </div>
@@ -201,7 +201,7 @@ export default function Forums() {
             <div className="rounded-16 bg-white shadow-4 h-100">
               <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
                 <h2 className="text-17 lh-1 fw-500">
-                  Course discussion The attraction of Mental Illness
+                  Discussão do curso: A atração da doença mental
                 </h2>
 
                 <div
@@ -221,7 +221,7 @@ export default function Forums() {
                     data-el-toggle=".js-category-toggle"
                     data-el-toggle-active=".js-category-active"
                   >
-                    <span className="js-dropdown-title">Settings</span>
+                    <span className="js-dropdown-title">Configurações</span>
                     <i className="icon text-9 ml-40 icon-chevron-down"></i>
                   </div>
 
@@ -232,7 +232,7 @@ export default function Forums() {
                     <div className="text-14 y-gap-15 js-dropdown-list">
                       <div>
                         <a href="#" className="d-block js-dropdown-link">
-                          Animation
+                          Animação
                         </a>
                       </div>
 
@@ -244,13 +244,13 @@ export default function Forums() {
 
                       <div>
                         <a href="#" className="d-block js-dropdown-link">
-                          Illustration
+                          Ilustração
                         </a>
                       </div>
 
                       <div>
                         <a href="#" className="d-block js-dropdown-link">
-                          Business
+                          Negócios
                         </a>
                       </div>
                     </div>
@@ -260,7 +260,7 @@ export default function Forums() {
 
               <div className="py-30 px-30">
                 <div className="d-flex items-center justify-between">
-                  Search
+                  Buscar
                   <div
                     id="dd12button"
                     onClick={() => {
@@ -279,7 +279,7 @@ export default function Forums() {
                       data-el-toggle-active=".js-category-active"
                     >
                       <span className="js-dropdown-title">
-                        Display Replies In Threaded From
+                        Exibir respostas em formato de tópicos
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -291,7 +291,7 @@ export default function Forums() {
                       <div className="text-14 y-gap-15 js-dropdown-list">
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Animation
+                            Animação
                           </a>
                         </div>
 
@@ -303,13 +303,13 @@ export default function Forums() {
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Illustration
+                            Ilustração
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Business
+                            Negócios
                           </a>
                         </div>
                       </div>
@@ -350,7 +350,7 @@ export default function Forums() {
 
                           <div className="comments__helpful mt-20">
                             <button className="button text-13 px-15 py-10 -light-7 text-purple-1">
-                              Respond
+                              Responder
                             </button>
                           </div>
                         </div>
@@ -368,7 +368,7 @@ export default function Forums() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Forum Netiquette
+                    Netiqueta do Fórum
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
 
@@ -389,7 +389,7 @@ export default function Forums() {
                       data-el-toggle=".js-category-toggle"
                       data-el-toggle-active=".js-category-active"
                     >
-                      <span className="js-dropdown-title">Jump to...</span>
+                      <span className="js-dropdown-title">Ir para...</span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
 
@@ -400,7 +400,7 @@ export default function Forums() {
                       <div className="text-14 y-gap-15 js-dropdown-list">
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Animation
+                            Animação
                           </a>
                         </div>
 
@@ -412,13 +412,13 @@ export default function Forums() {
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Illustration
+                            Ilustração
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Business
+                            Negócios
                           </a>
                         </div>
                       </div>
@@ -429,7 +429,7 @@ export default function Forums() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Share Examples Of Digital
+                    Compartilhe exemplos de digital
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
                 </div>

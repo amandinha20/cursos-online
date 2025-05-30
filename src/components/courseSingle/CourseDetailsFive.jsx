@@ -10,10 +10,10 @@ import PinContentTwo from "./PinContentTwo";
 import ModalVideoComponent from "../common/ModalVideo";
 
 const menuItems = [
-  { id: 1, href: "#overview", text: "Overview", isActive: true },
-  { id: 2, href: "#course-content", text: "Course Content", isActive: false },
-  { id: 3, href: "#instructors", text: "Instructors", isActive: false },
-  { id: 4, href: "#reviews", text: "Reviews", isActive: false },
+  { id: 1, href: "#overview", text: "Visão Geral", isActive: true },
+  { id: 2, href: "#course-content", text: "Conteúdo do Curso", isActive: false },
+  { id: 3, href: "#instructors", text: "Instrutores", isActive: false },
+  { id: 4, href: "#reviews", text: "Avaliações", isActive: false },
 ];
 
 export default function CourseDetailsFive({ id }) {
@@ -64,8 +64,7 @@ export default function CourseDetailsFive({ id }) {
                   </div>
 
                   <p className="col-xl-9 mt-20">
-                    Use XD to get a job in UI Design, User Interface, User
-                    Experience design, UX design & Web Design
+                    Use o XD para conseguir um emprego em UI Design, Interface do Usuário, Design de Experiência do Usuário, UX Design e Web Design
                   </p>
 
                   <div className="d-flex x-gap-30 y-gap-10 items-center flex-wrap pt-20">
@@ -84,13 +83,13 @@ export default function CourseDetailsFive({ id }) {
                     <div className="d-flex items-center text-light-1">
                       <div className="icon icon-person-3 text-13"></div>
                       <div className="text-14 ml-8">
-                        853 enrolled on this course
+                        853 inscritos neste curso
                       </div>
                     </div>
 
                     <div className="d-flex items-center text-light-1">
                       <div className="icon icon-wall-clock text-13"></div>
-                      <div className="text-14 ml-8">Last updated 11/2021</div>
+                      <div className="text-14 ml-8">Última atualização 11/2021</div>
                     </div>
                   </div>
 

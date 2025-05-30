@@ -7,11 +7,11 @@ import FooterNine from "@/components/layout/footers/FooterNine";
 import Notification from "./Notifications";
 
 const buttons = [
-  "Edit Profile",
-  "Password",
-  "Social Profiles",
-  "Notifications",
-  "Close Account",
+  "Editar Perfil",
+  "Senha",
+  "Perfis Sociais",
+  "Notificações",
+  "Encerrar Conta",
 ];
 
 export default function Settings() {
@@ -22,9 +22,9 @@ export default function Settings() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Settings</h1>
+            <h1 className="text-30 lh-12 fw-700">Configurações</h1>
             <div className="mt-10">
-              Lorem ipsum dolor sit amet, consectetur.
+              Bem-vindos as configurações do Instituto Saber+.
             </div>
           </div>
         </div>
