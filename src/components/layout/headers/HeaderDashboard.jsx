@@ -302,14 +302,14 @@ export default function HeaderDashboard() {
                               >
                                 <i className={elm.iconClass}></i>
                                 {/* Tradução dos textos do menu do dashboard */}
-                                {elm.text === "Dashboard" && "Painel"}
+                                {elm.text === "Dashboard" && "Painel de Controle"}
                                 {elm.text === "My Courses" && "Meus Cursos"}
                                 {elm.text === "Bookmarks" && "Favoritos"}
-                                {elm.text === "Add Listing" && "Adicionar Curso"}
-                                {elm.text === "Reviews" && "Avaliações"}
-                                {elm.text === "Settings" && "Configurações"}
+                                {elm.text === "Add Listing" && "Adicione seu curso ao mundo!"}
+                                {elm.text === "Reviews" && "Avaliações dos nossos heróis!"}
+                                {elm.text === "Settings" && "Configurações mágicas"}
                                 {/* fallback para outros textos */}
-                                {[
+                                { [
                                   "Dashboard",
                                   "My Courses",
                                   "Bookmarks",
@@ -318,7 +318,7 @@ export default function HeaderDashboard() {
                                   "Settings",
                                 ].includes(elm.text)
                                   ? ""
-                                  : elm.text}
+                                  : "Explore novas possibilidades!"}
                               </a>
                             </div>
                           ))}

@@ -2,16 +2,16 @@ export const contactData = [
   {
     id: 1,
     icon: "/assets/img/contact-1/1.svg",
-    address: "328 Queensberry Street, North Melbourne VIC 3051, Austrália.",
+    address: "Rua 21, prédio ORION, setor Marista, Goiânia, GO, Brasil",
   },
   {
     id: 2,
     icon: "/assets/img/contact-1/2.svg",
-    phoneNumber: "+(1) 123 456 7890",
+    phoneNumber: "+(62) 123 456 7890",
   },
   {
     id: 3,
     icon: "/assets/img/contact-1/3.svg",
-    email: "hi@educrat.com",
+    email: "hi@institutosaber.com",
   },
 ];

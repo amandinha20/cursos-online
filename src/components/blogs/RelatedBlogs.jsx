@@ -9,10 +9,10 @@ export default function RelatedBlogs() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">Related Posts</h2>
+              <h2 className="sectionTitle__title ">Posts Relacionados</h2>
 
               <p className="sectionTitle__text ">
-                10,000+ unique online course list designs
+                Mais de 10.000 ideias únicas de design para listas de cursos online
               </p>
             </div>
           </div>

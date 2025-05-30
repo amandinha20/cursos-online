@@ -5,7 +5,7 @@ import Pagination from "../common/Pagination";
 import CoursesCardDashboard from "./DashBoardCards/CoursesCardDashboard";
 const ddItems = [
   { id: 1, label: "Todas as categorias" },
-  { id: 2, label: "Animação" },
+  { id: 2, label: "Animação'" },
   { id: 3, label: "Design" },
   { id: 4, label: "ilustração" },
   { id: 5, label: "Negócios" },

@@ -49,92 +49,252 @@ export default function BlogDetails({ id }) {
               <div className="row justify-center">
                 <div className="col-xl-8 col-lg-9 col-md-11">
                   <div className="blogCard__content">
-                    <h4 className="text-18 fw-500">
-                      A importância da educação ambiental para a saúde
-                    </h4>
-                    <p className="mt-30">
-                      A educação ambiental é fundamental para promover a
-                      conscientização sobre o impacto das nossas ações no meio
-                      ambiente e, consequentemente, na saúde coletiva. Compreender
-                      como a poluição, o descarte inadequado de resíduos e o uso
-                      excessivo de recursos naturais afetam o nosso bem-estar é
-                      essencial para adotar hábitos mais sustentáveis.
-                    </p>
-                    <p className="mt-20">
-                      Além disso, a educação ambiental contribui para a prevenção de doenças, pois incentiva práticas que evitam a contaminação do solo, da água e do ar. Ao aprender sobre a importância da reciclagem, do consumo consciente e da preservação das florestas, desenvolvemos uma relação mais saudável com o planeta e com a nossa própria saúde.
-                    </p>
-                    <p className="mt-20">
-                      A integração entre saúde e meio ambiente é cada vez mais reconhecida por profissionais das áreas médicas e ambientais. Investir em educação ambiental é investir em qualidade de vida, bem-estar e longevidade para toda a sociedade.
-                    </p>
-                    <ul className="ul-list y-gap-10 mt-30">
-                      <li>
-                        A educação ambiental incentiva práticas que reduzem a
-                        poluição do ar e da água, prevenindo doenças respiratórias
-                        e infecciosas.
-                      </li>
-                      <li>
-                        Promove o consumo consciente e a preservação dos recursos
-                        naturais, garantindo qualidade de vida para as próximas
-                        gerações.
-                      </li>
-                      <li>
-                        Estimula a participação em ações coletivas de cuidado com o
-                        meio ambiente, fortalecendo a saúde das comunidades.
-                      </li>
-                      <li>
-                        Contribui para a formação de cidadãos responsáveis, capazes
-                        de tomar decisões que beneficiam tanto o planeta quanto a
-                        saúde humana.
-                      </li>
-                      <li>
-                        Incentiva o contato com a natureza, promovendo benefícios físicos e mentais, como redução do estresse e melhora da imunidade.
-                      </li>
-                      <li>
-                        Ajuda a combater as mudanças climáticas, que impactam diretamente a saúde pública, como ondas de calor, enchentes e proliferação de vetores de doenças.
-                      </li>
-                    </ul>
-                    <p className="mt-30">
-                      Ao investir em educação ambiental, estamos cuidando do nosso
-                      presente e futuro. Pequenas atitudes, como separar o lixo,
-                      economizar água e valorizar áreas verdes, fazem grande
-                      diferença na prevenção de doenças e na promoção do bem-estar.
-                      A saúde do planeta está diretamente ligada à saúde de todos
-                      nós.
-                    </p>
-                    <p className="mt-20">
-                      Escolas, empresas e comunidades têm papel fundamental na disseminação de práticas sustentáveis. Incentivar projetos de educação ambiental é garantir que mais pessoas estejam preparadas para enfrentar os desafios ambientais e cuidar da saúde coletiva.
-                    </p>
-                    <p className="mt-20">
-                      
-                    </p>
-                  </div>
-
-                  <div className="row y-gap-30 pt-30">
-                    <div className="col-sm-6">
-                      <img
-                        src="/assets/img/blog/blog-single/1.png"
-                        alt="image"
-                        className="w-1/1 initial-img rounded-8"
-                      />
-                    </div>
-                    <div className="col-sm-6">
-                      <img
-                        src="/assets/img/blog/blog-single/2.png"
-                        alt="image"
-                        className="w-1/1 initial-img rounded-8"
-                      />
-                    </div>
+                    {(() => {
+                      switch (data.id) {
+                        case 1:
+                          // Educação ambiental: transformando o amanhã
+                          return (
+                            <>
+                              <h4 className="text-18 fw-500">
+                                A importância da educação ambiental para a saúde
+                              </h4>
+                              <p className="mt-30">
+                                A educação ambiental é fundamental para promover a
+                                conscientização sobre o impacto das nossas ações no meio
+                                ambiente e, consequentemente, na saúde coletiva. Compreender
+                                como a poluição, o descarte inadequado de resíduos e o uso
+                                excessivo de recursos naturais afetam o nosso bem-estar é
+                                essencial para adotar hábitos mais sustentáveis.
+                              </p>
+                              <p className="mt-20">
+                                Além disso, a educação ambiental contribui para a prevenção de doenças, pois incentiva práticas que evitam a contaminação do solo, da água e do ar. Ao aprender sobre a importância da reciclagem, do consumo consciente e da preservação das florestas, desenvolvemos uma relação mais saudável com o planeta e com a nossa própria saúde.
+                              </p>
+                              <p className="mt-20">
+                                A integração entre saúde e meio ambiente é cada vez mais reconhecida por profissionais das áreas médicas e ambientais. Investir em educação ambiental é investir em qualidade de vida, bem-estar e longevidade para toda a sociedade.
+                              </p>
+                              <ul className="ul-list y-gap-10 mt-30">
+                                <li>
+                                  A educação ambiental incentiva práticas que reduzem a
+                                  poluição do ar e da água, prevenindo doenças respiratórias
+                                  e infecciosas.
+                                </li>
+                                <li>
+                                  Promove o consumo consciente e a preservação dos recursos
+                                  naturais, garantindo qualidade de vida para as próximas
+                                  gerações.
+                                </li>
+                                <li>
+                                  Estimula a participação em ações coletivas de cuidado com o
+                                  meio ambiente, fortalecendo a saúde das comunidades.
+                                </li>
+                                <li>
+                                  Contribui para a formação de cidadãos responsáveis, capazes
+                                  de tomar decisões que beneficiam tanto o planeta quanto a
+                                  saúde humana.
+                                </li>
+                                <li>
+                                  Incentiva o contato com a natureza, promovendo benefícios físicos e mentais, como redução do estresse e melhora da imunidade.
+                                </li>
+                                <li>
+                                  Ajuda a combater as mudanças climáticas, que impactam diretamente a saúde pública, como ondas de calor, enchentes e proliferação de vetores de doenças.
+                                </li>
+                              </ul>
+                              <p className="mt-30">
+                                Ao investir em educação ambiental, estamos cuidando do nosso
+                                presente e futuro. Pequenas atitudes, como separar o lixo,
+                                economizar água e valorizar áreas verdes, fazem grande
+                                diferença na prevenção de doenças e na promoção do bem-estar.
+                                A saúde do planeta está diretamente ligada à saúde de todos
+                                nós.
+                              </p>
+                              <p className="mt-20">
+                                Escolas, empresas e comunidades têm papel fundamental na disseminação de práticas sustentáveis. Incentivar projetos de educação ambiental é garantir que mais pessoas estejam preparadas para enfrentar os desafios ambientais e cuidar da saúde coletiva.
+                              </p>
+                              <p className="mt-20">
+                                Participe de iniciativas ambientais, compartilhe conhecimento
+                                e inspire outras pessoas a também adotarem práticas
+                                sustentáveis. O equilíbrio entre meio ambiente e saúde
+                                depende das escolhas que fazemos diariamente.
+                              </p>
+                              <div className="row y-gap-30 pt-30">
+                              <div className="col-sm-6">
+                              <img
+                              src="/assets/img/blog/blog-single/1.png"
+                              alt="image"
+                              className="w-1/1 initial-img rounded-8"
+                              />
+                              </div>
+                              <div className="col-sm-6">
+                              <img
+                              src="/assets/img/blog/blog-single/2.png"
+                              alt="image"
+                              className="w-1/1 initial-img rounded-8"
+                              />
+                              </div>
+                              </div>
+                            </>
+                          );
+                        case 2:
+                          // Crescimento profissional contínuo
+                          return (
+                            <>
+                              <h4 className="text-18 fw-500">
+                                Como criar um ambiente de crescimento profissional contínuo
+                              </h4>
+                              <p className="mt-30">
+                                O crescimento profissional contínuo depende de um ambiente que valoriza o desenvolvimento de habilidades, a troca de experiências e o incentivo à inovação. Empresas que investem em capacitação e promovem uma cultura de feedback constroem equipes mais engajadas e preparadas para os desafios do mercado.
+                              </p>
+                              <p className="mt-20">
+                                É importante oferecer treinamentos, estimular a participação em projetos desafiadores e reconhecer conquistas. O diálogo aberto e o apoio ao aprendizado constante são essenciais para que cada colaborador alcance seu potencial máximo.
+                              </p>
+                              <ul className="ul-list y-gap-10 mt-30">
+                                <li>
+                                  Invista em cursos, workshops e mentorias para atualização profissional.
+                                </li>
+                                <li>
+                                  Promova a colaboração entre equipes e incentive o compartilhamento de conhecimento.
+                                </li>
+                                <li>
+                                  Reconheça e valorize o crescimento individual e coletivo.
+                                </li>
+                                <li>
+                                  Estimule a busca por novos desafios e o desenvolvimento de competências comportamentais.
+                                </li>
+                              </ul>
+                              <p className="mt-30">
+                                O desenvolvimento profissional é uma jornada contínua. Invista em você, busque novos conhecimentos e esteja aberto a mudanças. O crescimento individual reflete diretamente no sucesso da equipe e da organização.
+                              </p>
+                              <div className="row y-gap-30 pt-30">
+                              <div className="col-sm-6">
+                                <img
+                                    src="/assets/img/blog/blog-single/3.png"
+                                    alt="image"
+                                    className="w-1/1 initial-img rounded-8"
+                                    />
+                              </div>
+                              <div className="col-sm-6">
+                                <img
+                                  src="/assets/img/blog/blog-single/4.png"
+                                  alt="image"
+                                  className="w-1/1 initial-img rounded-8"
+                                />
+                             </div>
+                             </div>
+                            </>
+                          );
+                        case 3:
+                          // Estratégias para aumentar o engajamento no Instagram
+                          return (
+                            <>
+                              <h4 className="text-18 fw-500">
+                                Estratégias para aumentar o engajamento no Instagram
+                              </h4>
+                              <p className="mt-30">
+                                Para aumentar o engajamento no Instagram, é fundamental criar conteúdos relevantes, interagir com os seguidores e acompanhar as tendências da plataforma. O uso de stories, reels e enquetes pode aproximar o público e gerar mais participação.
+                              </p>
+                              <p className="mt-20">
+                                Responder comentários, incentivar o compartilhamento de publicações e utilizar hashtags estratégicas também são práticas que ampliam o alcance e fortalecem a comunidade em torno do seu perfil.
+                              </p>
+                              <ul className="ul-list y-gap-10 mt-30">
+                                <li>
+                                  Produza conteúdos autênticos e que gerem valor para sua audiência.
+                                </li>
+                                <li>
+                                  Utilize recursos interativos, como enquetes, perguntas e lives.
+                                </li>
+                                <li>
+                                  Analise as métricas de engajamento e ajuste sua estratégia conforme os resultados.
+                                </li>
+                                <li>
+                                  Mantenha uma frequência de postagens e esteja atento às novidades do Instagram.
+                                </li>
+                              </ul>
+                              <p className="mt-30">
+                                Engajamento é relacionamento. Quanto mais próximo do seu público, maior será o alcance e a relevância do seu perfil na rede social.
+                              </p>
+                              <div className="row y-gap-30 pt-30">
+                              <div className="col-sm-6">
+                                <img
+                                    src="/assets/img/blog/blog-single/5.png"
+                                    alt="image"
+                                    className="w-1/1 initial-img rounded-8"
+                                    />
+                              </div>
+                              <div className="col-sm-6">
+                                <img
+                                  src="/assets/img/blog/blog-single/6.png"
+                                  alt="image"
+                                  className="w-1/1 initial-img rounded-8"
+                                />
+                             </div>
+                             </div>
+                            </>
+                          );
+                        case 4:
+                          // Identidade de marca marcante e autêntica
+                          return (
+                            <>
+                              <h4 className="text-18 fw-500">
+                                Construindo uma identidade de marca marcante e autêntica
+                              </h4>
+                              <p className="mt-30">
+                                Uma identidade de marca forte diferencia sua empresa no mercado e cria conexão emocional com o público. Ela é composta por valores, propósito, comunicação visual e experiência do cliente.
+                              </p>
+                              <p className="mt-20">
+                                Para construir uma marca marcante, é importante definir missão, visão e valores claros, investir em um design visual consistente e comunicar-se de forma autêntica. A experiência do cliente em todos os pontos de contato deve ser positiva e memorável.
+                              </p>
+                              <ul className="ul-list y-gap-10 mt-30">
+                                <li>Defina missão, visão e valores alinhados ao propósito da empresa.</li>
+                                <li>
+                                  Invista em identidade visual profissional e coerente.
+                                </li>
+                                <li>
+                                  Comunique-se de forma transparente e humanizada.
+                                </li>
+                                <li>
+                                  Ofereça experiências que encantem e fidelizem o cliente.
+                                </li>
+                              </ul>
+                              <p className="mt-30">
+                                Marcas autênticas são lembradas e recomendadas. Construa a sua com dedicação, ouvindo seu público e adaptando-se às mudanças do mercado.
+                              </p>
+                              <div className="row y-gap-30 pt-30">
+                              <div className="col-sm-6">
+                                <img
+                                    src="/assets/img/blog/blog-single/7.png"
+                                    alt="image"
+                                    className="w-1/1 initial-img rounded-8"
+                                    />
+                              </div>
+                              <div className="col-sm-6">
+                                <img
+                                  src="/assets/img/blog/blog-single/8.png"
+                                  alt="image"
+                                  className="w-1/1 initial-img rounded-8"
+                                />
+                             </div>
+                             </div>
+                            </>
+                          );
+                        // ...adicione outros cases conforme necessário, cada um com conteúdo próprio do tema...
+                        default:
+                          // Conteúdo padrão
+                          return (
+                            <>
+                              <h4 className="text-18 fw-500">{data.title}</h4>
+                              <p className="mt-30">{data.desc}</p>
+                            </>
+                          );
+                      }
+                    })()}
                   </div>
 
                   <div className="blogCard__content pt-30">
                     <p>
-                      Escolas, empresas e comunidades têm papel fundamental na disseminação de práticas sustentáveis. Incentivar projetos de educação ambiental é garantir que mais pessoas estejam preparadas para enfrentar os desafios ambientais e cuidar da saúde coletiva.
+                      Para se destacar no mercado, é essencial manter um ambiente profissional contínuo, com constância, organização e postura ética. No Instagram, aumente o engajamento criando conteúdo relevante, usando formatos variados (como Reels e stories), interagindo com o público e sendo autêntico.
                       <br />
                       <br />
-                      Participe de iniciativas ambientais, compartilhe conhecimento
-                      e inspire outras pessoas a também adotarem práticas
-                      sustentáveis. O equilíbrio entre meio ambiente e saúde
-                      depende das escolhas que fazemos diariamente.
+                      Já para construir uma identidade de marca marcante e autêntica, defina seu propósito, tenha um posicionamento claro, humanize a comunicação e alinhe estética com essência. O segredo está na consistência, verdade e conexão com o público.
                     </p>
                   </div>
                 </div>

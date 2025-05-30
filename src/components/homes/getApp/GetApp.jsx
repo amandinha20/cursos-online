@@ -35,7 +35,7 @@ export default function GetApp() {
                 data-aos="fade-up"
                 data-aos-duration={600}
               >
-                Faça aulas em qualquer lugar com o aplicativo Educrat. Transmita
+                Faça aulas em qualquer lugar com o aplicativo Instituto Saber+. Transmita
                 ou baixe para assistir no avião, no metrô ou onde você aprender
                 melhor.
               </p>
